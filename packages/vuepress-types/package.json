@@ -31,6 +31,5 @@
   },
   "peerDependencies": {
     "vuepress": "^1.1.0"
-  },
-  "gitHead": "6c2195747594c365c31448c7dc6cde0ceb506aba"
+  }
 }

@@ -34,7 +34,6 @@
     "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
-    "vuepress-types": "^0.0.1"
-  },
-  "gitHead": "6c2195747594c365c31448c7dc6cde0ceb506aba"
+    "vuepress-types": "^0.1.0"
+  }
 }
