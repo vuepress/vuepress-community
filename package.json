@@ -4,7 +4,9 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue packages"
+    "build": "yarn workspaces run build",
+    "lint": "yarn workspaces run lint",
+    "release": "yarn lerna publish"
   },
   "husky": {
     "hooks": {
@@ -42,7 +44,7 @@
   },
   "prettier": "prettier-config-vuepress",
   "eslintConfig": {
-    "extends": "vuepress",
+    "extends": "vuepress-typescript",
     "root": true
   },
   "devDependencies": {
@@ -51,7 +53,8 @@
     "@commitlint/config-lerna-scopes": "^8.2.0",
     "conventional-changelog-cli": "^2.0.23",
     "eslint": "^6.4.0",
-    "eslint-config-vuepress": "^1.0.0",
+    "eslint-config-vuepress": "^2.0.0",
+    "eslint-config-vuepress-typescript": "^1.0.0",
     "husky": "^3.0.5",
     "lerna": "^3.16.4",
     "lint-staged": "^9.3.0",

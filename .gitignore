@@ -1,3 +1,7 @@
+# Dist files
+lib/
+types/
+
 # Node modules
 node_modules/
 
