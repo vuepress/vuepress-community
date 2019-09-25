@@ -1,0 +1,40 @@
+{
+  "name": "vuepress-plugin-smooth-scroll",
+  "version": "0.0.3",
+  "description": "VuePress plugin for smooth scrolling",
+  "keywords": [
+    "plugin",
+    "scroll",
+    "smooth",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-contrib/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-contrib.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "files": [
+    "lib",
+    "styles",
+    "types"
+  ],
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib types && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "vuepress-types": "^0.0.1"
+  },
+  "gitHead": "6c2195747594c365c31448c7dc6cde0ceb506aba"
+}
