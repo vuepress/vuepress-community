@@ -1,0 +1,65 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx,.vue packages"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional",
+      "@commitlint/config-lerna-scopes"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,vue}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{js,vue}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{json,md,yml}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ]
+  },
+  "prettier": "prettier-config-vuepress",
+  "eslintConfig": {
+    "extends": "vuepress",
+    "root": true
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "@commitlint/config-lerna-scopes": "^8.2.0",
+    "conventional-changelog-cli": "^2.0.23",
+    "eslint": "^6.4.0",
+    "eslint-config-vuepress": "^1.0.0",
+    "husky": "^3.0.5",
+    "lerna": "^3.16.4",
+    "lint-staged": "^9.3.0",
+    "prettier": "^1.18.2",
+    "prettier-config-vuepress": "^1.0.0",
+    "rimraf": "^3.0.0",
+    "sort-package-json": "^1.22.1",
+    "typescript": "^3.6.3",
+    "vuepress": "^1.1.0"
+  }
+}
