@@ -2,10 +2,10 @@
 
 > VuePress TypeScript helpers
 
-## :book: Documentation
+## Documentation
 
 [vuepress.github.io](https://vuepress.github.io)
 
-## LICENSE
+## License
 
 [MIT](https://github.com/vuepress/vuepress-contrib/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
