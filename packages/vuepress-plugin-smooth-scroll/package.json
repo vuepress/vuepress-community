@@ -10,11 +10,11 @@
   ],
   "homepage": "https://github.com/vuepress",
   "bugs": {
-    "url": "https://github.com/vuepress/vuepress-contrib/issues"
+    "url": "https://github.com/vuepress/vuepress-community/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuepress/vuepress-contrib.git"
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
