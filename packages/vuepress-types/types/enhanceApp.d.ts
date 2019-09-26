@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter, { RouterOptions } from 'vue-router'
-import '@vuepress/core/lib/client/plugins/VuePress'
+// TODO: https://github.com/vuejs/vuepress/pull/1892
+// import '@vuepress/core/lib/client/plugins/VuePress'
+import './vuepress-1892'
 import { SiteData } from './context'
 
 export type EnhanceApp = (options: {
