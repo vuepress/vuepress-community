@@ -1,6 +1,16 @@
-# vuepress-contrib
+<p align="center">
+  <a href="https://vuepress.github.io/" target="_blank">
+    <img width="180" src="https://raw.githubusercontent.com/vuepress/vuepress-community/master/packages/docs/src/.vuepress/public/logo/600x600.png" alt="logo">
+  </a>
+</p>
 
-> Community supported 3rd party packages for VuePress
+<h2 align="center">
+  VuePress Community
+</h2>
+
+<p align="center">
+  Community supported ecosystem for VuePress
+</p>
 
 ## Documentation
 
@@ -8,4 +18,4 @@
 
 ## License
 
-[MIT](https://github.com/vuepress/vuepress-contrib/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/vuepress-community/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
