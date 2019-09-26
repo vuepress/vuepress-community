@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-smooth-scroll <GitHubLink repo="vuepress/vuepress-contrib"/>
+# vuepress-plugin-smooth-scroll <GitHubLink repo="vuepress/vuepress-community"/>
 
 在你的 VuePress 站点中使用平滑滚动。
 

@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-smooth-scroll <GitHubLink repo="vuepress/vuepress-contrib"/>
+# vuepress-plugin-smooth-scroll <GitHubLink repo="vuepress/vuepress-community"/>
 
 Make scrolling smooth in your VuePress site.
 

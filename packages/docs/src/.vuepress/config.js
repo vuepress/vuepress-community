@@ -84,7 +84,7 @@ module.exports = context => ({
   },
 
   themeConfig: {
-    repo: 'vuepress/vuepress-contrib',
+    repo: 'vuepress/vuepress-community',
     editLinks: true,
     docsDir: 'packages/docs/src',
     locales: {
