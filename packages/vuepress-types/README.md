@@ -8,4 +8,4 @@
 
 ## License
 
-[MIT](https://github.com/vuepress/vuepress-contrib/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/vuepress-community/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
