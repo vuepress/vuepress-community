@@ -1,0 +1,35 @@
+$bdColor = #D6DBDF
+
+.math-block
+  font-family inherit
+  padding .1rem 1.5rem
+  margin 1rem 0
+  border-left .5rem solid $bdColor
+  border-radius 0 !important
+  background-color rgba(102, 128, 153, .05) !important
+  color $textColor
+
+pre.math-block
+  white-space pre-wrap
+
+mjx-container[display=true]
+  &::-webkit-scrollbar
+    width 1rem
+    height 0.4rem
+
+  &::-webkit-scrollbar-track
+    background-color: transparent
+    -webkit-box-shadow: transparent
+    border-radius: 0.4rem
+
+  &::-webkit-scrollbar-thumb
+    background-color: lighten($bdColor, 20%)
+    border-radius: 0.4rem
+
+  &:hover
+    &::-webkit-scrollbar-track
+      background-color: mix($bdColor, transparent, 40%)
+      -webkit-box-shadow: inset 0 0 0.2rem mix($bdColor, transparent, 80%)
+
+    &::-webkit-scrollbar-thumb
+      background-color: darken($bdColor, 10%)

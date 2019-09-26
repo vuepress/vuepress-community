@@ -5,6 +5,8 @@
   ],
   "scripts": {
     "build": "yarn workspaces run build",
+    "build:docs": "yarn workspace docs build",
+    "dev": "yarn workspace docs dev",
     "lint": "yarn workspaces run lint",
     "release": "yarn lerna publish"
   },

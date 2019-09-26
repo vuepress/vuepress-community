@@ -7,7 +7,7 @@
       "allowBranch": "master",
       "conventionalCommits": true,
       "exact": true,
-      "ignoreChanges": ["**/*.md"],
+      "ignoreChanges": ["**/*.md", "packages/docs/*"],
       "message": "build: publish"
     }
   }
