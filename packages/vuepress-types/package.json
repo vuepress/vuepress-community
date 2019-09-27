@@ -21,7 +21,6 @@
   ],
   "types": "types/index.d.ts",
   "scripts": {
-    "build": "echo",
     "lint": "eslint --ext .ts types"
   },
   "dependencies": {
