@@ -1,0 +1,38 @@
+{
+  "name": "vuepress-plugin-nprogress",
+  "version": "1.1.1",
+  "description": "VuePress plugin for nprogress",
+  "keywords": [
+    "nprogress",
+    "plugin",
+    "scroll"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "files": [
+    "lib",
+    "styles"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.0",
+    "vuepress-types": "^0.1.0"
+  }
+}
