@@ -1,6 +1,5 @@
 import { EnhanceApp } from 'vuepress-types'
 import { Route } from 'vue-router'
-import '../styles/index.styl'
 
 // fork from vue-router@3.0.2
 // src/util/scroll.js
