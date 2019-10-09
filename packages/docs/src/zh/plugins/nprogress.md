@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-nprogress <GitHubLink repo="vuepress/vuepress-plugin-nprogress"/>
+# vuepress-plugin-nprogress <GitHubLink repo="vuepress/vuepress-community""/>
 
 在你的 VuePress 站点中使用 [nprogress](https://github.com/rstacruz/nprogress)。
 
