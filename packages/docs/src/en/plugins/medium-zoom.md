@@ -113,3 +113,9 @@ export default {
   },
 }
 ```
+
+# Demo
+
+Click the image:
+
+<img src="/logo/600x600.png" alt="demo" width="200"/>

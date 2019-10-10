@@ -2094,13 +2094,6 @@
   dependencies:
     cross-spawn "^6.0.5"
 
-"@vuepress/plugin-medium-zoom@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-medium-zoom/-/plugin-medium-zoom-1.1.0.tgz#c95560197fff23500b049278584b85f4f3a0ed3d"
-  integrity sha512-DGLRL2YJX6ptmeAOeQSMWh9dgby9B4MXWkiqyXTS+9YNPWEdqvjnXGFvr7VLkXUaZdapnt3OkZDdnq28jUR3fg==
-  dependencies:
-    medium-zoom "^1.0.4"
-
 "@vuepress/plugin-nprogress@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-nprogress/-/plugin-nprogress-1.1.0.tgz#ca7106adc7016ed0d90a22555066c11da597ef59"

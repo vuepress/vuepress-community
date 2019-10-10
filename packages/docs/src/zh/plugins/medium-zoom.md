@@ -113,3 +113,9 @@ export default {
   },
 }
 ```
+
+# 演示
+
+点击图片：
+
+<img src="/logo/600x600.png" alt="演示" width="200"/>

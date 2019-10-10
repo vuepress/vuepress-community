@@ -13,12 +13,6 @@ module.exports = context => ({
   ],
 
   plugins: [
-    [
-      '@vuepress/medium-zoom',
-      {
-        selector: '.content img:not(.no-medium-zoom)',
-      },
-    ],
     ['@vuepress/back-to-top'],
     [
       'clean-urls',
@@ -60,13 +54,19 @@ module.exports = context => ({
         },
       },
     ],
-    ['serve'],
+    [
+      'medium-zoom',
+      {
+        selector: '.theme-default-content img:not(.no-zoom)',
+      },
+    ],
     [
       'redirect',
       {
         locales: true,
       },
     ],
+    ['serve'],
     ['smooth-scroll'],
   ],
 
