@@ -1,0 +1,7 @@
+$mediumZoomZIndex ?= 100
+
+.medium-zoom-overlay
+  z-index $mediumZoomZIndex
+
+.medium-zoom-overlay ~ img
+  z-index $mediumZoomZIndex + 1

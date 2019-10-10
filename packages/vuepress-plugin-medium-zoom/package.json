@@ -1,0 +1,39 @@
+{
+  "name": "vuepress-plugin-medium-zoom",
+  "version": "1.1.3",
+  "description": "VuePress plugin for medium-zoom",
+  "keywords": [
+    "image",
+    "medium-zoom",
+    "nprogress",
+    "plugin",
+    "zoom"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "files": [
+    "lib",
+    "styles"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "medium-zoom": "^1.0.4"
+  },
+  "devDependencies": {
+    "vuepress-types": "^0.1.0"
+  }
+}
