@@ -2,7 +2,7 @@ import { Page, PageOptions } from './page'
 
 /**
  * @see https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/core/lib/node/App.js
- * @see https://v1.vuepress.vuejs.org/plugin/context-api.html
+ * @see https://vuepress.vuejs.org/plugin/context-api.html
  */
 
 export interface ContextConstructor {

@@ -78,14 +78,14 @@ Options for [serve-static](https://github.com/expressjs/serve-static#servestatic
 - **type:** `(app, server) => void`
 - **default:** `undefined`
 
-Executed before the server accepts client information. Similar to VuePress's [beforeDevServer](https://v1.vuepress.vuejs.org/en/plugin/option-api.html#beforedevserver) option.
+Executed before the server accepts client information. Similar to VuePress's [beforeDevServer](https://vuepress.vuejs.org/en/plugin/option-api.html#beforedevserver) option.
 
 ### afterServer
 
 - **type:** `async (app, server) => void`
 - **default:** `undefined`
 
-Executed after the server accepts client information. Similar to VuePress's [afterDevServer](https://v1.vuepress.vuejs.org/en/plugin/option-api.html#afterdevserver) option.
+Executed after the server accepts client information. Similar to VuePress's [afterDevServer](https://vuepress.vuejs.org/en/plugin/option-api.html#afterdevserver) option.
 
 ### chainWebpack
 
@@ -94,7 +94,7 @@ Executed after the server accepts client information. Similar to VuePress's [aft
 
 This hook will be called when the server is being built.
 
-See [chainWebpack](https://v1.vuepress.vuejs.org/plugin/option-api.html#chainwebpack).
+See [chainWebpack](https://vuepress.vuejs.org/plugin/option-api.html#chainwebpack).
 
 ### define
 
@@ -103,7 +103,7 @@ See [chainWebpack](https://v1.vuepress.vuejs.org/plugin/option-api.html#chainweb
 
 This hook will be called when the server is being built.
 
-See [define](https://v1.vuepress.vuejs.org/plugin/option-api.html#define).
+See [define](https://vuepress.vuejs.org/plugin/option-api.html#define).
 
 ### alias
 
@@ -112,7 +112,7 @@ See [define](https://v1.vuepress.vuejs.org/plugin/option-api.html#define).
 
 This hook will be called when the server is being built.
 
-See [alias](https://v1.vuepress.vuejs.org/plugin/option-api.html#alias).
+See [alias](https://vuepress.vuejs.org/plugin/option-api.html#alias).
 
 ## CLI
 

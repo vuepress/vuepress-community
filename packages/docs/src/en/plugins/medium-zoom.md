@@ -38,7 +38,7 @@ module.exports = {
 
 Change the default `z-index` of the `medium-zoom-overlay` in `palette.styl`:
 
-> See [official docs](https://v1.vuepress.vuejs.org/config/#palette-styl)
+> See [official docs](https://vuepress.vuejs.org/config/#palette-styl)
 
 ```stylus
 // default: 100

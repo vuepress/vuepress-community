@@ -38,7 +38,7 @@ module.exports = {
 
 在 `palette.styl` 中修改 `medium-zoom-overlay` 的默认 `z-index`：
 
-> 查看 [官方文档](https://v1.vuepress.vuejs.org/zh/config/#palette-styl)
+> 查看 [官方文档](https://vuepress.vuejs.org/zh/config/#palette-styl)
 
 ```stylus
 // 默认值： 100

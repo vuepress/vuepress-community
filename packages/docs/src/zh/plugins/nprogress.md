@@ -27,7 +27,7 @@ module.exports = {
 
 在 `palette.styl` 文件中设置 `$nprogressColor`，就可以改变进度条的颜色。如果不设置的话，默认使用 VuePress 的 `$accentColor` 作为进度条颜色。
 
-> 查看 [官方文档](https://v1.vuepress.vuejs.org/zh/config/#palette-styl)
+> 查看 [官方文档](https://vuepress.vuejs.org/zh/config/#palette-styl)
 
 ```stylus
 $nprogressColor = red

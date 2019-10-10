@@ -47,7 +47,7 @@ A function that generates chunk name from `LayoutComponent` object.
 
 ## API
 
-This plugin will inject some properties into [context API](https://v1.vuepress.vuejs.org/plugin/context-api.html).
+This plugin will inject some properties into [context API](https://vuepress.vuejs.org/plugin/context-api.html).
 
 ### chunk name of a page component
 

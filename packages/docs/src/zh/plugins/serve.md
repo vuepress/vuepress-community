@@ -78,14 +78,14 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 - **类型:** `(app, server) => void`
 - **默认值:** `undefined`
 
-在服务器接受客户端信息之前执行。类似于 VuePress 的 [beforeDevServer](https://v1.vuepress.vuejs.org/zh/plugin/option-api.html#beforedevserver) 选项。
+在服务器接受客户端信息之前执行。类似于 VuePress 的 [beforeDevServer](https://vuepress.vuejs.org/zh/plugin/option-api.html#beforedevserver) 选项。
 
 ### afterServer
 
 - **类型:** `async (app, server) => void`
 - **默认值:** `undefined`
 
-在服务器接受客户端信息之后执行。类似于 VuePress 的 [afterDevServer](https://v1.vuepress.vuejs.org/zh/plugin/option-api.html#afterdevserver) 选项。
+在服务器接受客户端信息之后执行。类似于 VuePress 的 [afterDevServer](https://vuepress.vuejs.org/zh/plugin/option-api.html#afterdevserver) 选项。
 
 ### chainWebpack
 
@@ -94,7 +94,7 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 
 这个钩子会在服务器构建时调用。
 
-参见 [chainWebpack](https://v1.vuepress.vuejs.org/plugin/option-api.html#chainwebpack)。
+参见 [chainWebpack](https://vuepress.vuejs.org/plugin/option-api.html#chainwebpack)。
 
 ### define
 
@@ -103,7 +103,7 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 
 这个钩子会在服务器构建时调用。
 
-参见 [define](https://v1.vuepress.vuejs.org/plugin/option-api.html#define)。
+参见 [define](https://vuepress.vuejs.org/plugin/option-api.html#define)。
 
 ### alias
 
@@ -112,7 +112,7 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 
 这个钩子会在服务器构建时调用。
 
-参见 [alias](https://v1.vuepress.vuejs.org/plugin/option-api.html#alias)。
+参见 [alias](https://vuepress.vuejs.org/plugin/option-api.html#alias)。
 
 ## CLI
 

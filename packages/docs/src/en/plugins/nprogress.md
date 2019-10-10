@@ -27,7 +27,7 @@ module.exports = {
 
 Set `$nprogressColor` in `palette.styl` file to change the color of the progress bar. If not set, the color is set to `$accentColor` of VuePress.
 
-> See [official docs](https://v1.vuepress.vuejs.org/config/#palette-styl)
+> See [official docs](https://vuepress.vuejs.org/config/#palette-styl)
 
 ```stylus
 $nprogressColor = red

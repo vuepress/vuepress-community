@@ -47,7 +47,7 @@ module.exports = {
 
 ## API
 
-这个插件将会植入在 [context API](https://v1.vuepress.vuejs.org/zh/plugin/context-api.html) 中注入一些属性。
+这个插件将会植入在 [context API](https://vuepress.vuejs.org/zh/plugin/context-api.html) 中注入一些属性。
 
 ### 页面组件的模块名称
 
