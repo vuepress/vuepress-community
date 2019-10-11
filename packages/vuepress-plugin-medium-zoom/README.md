@@ -1,6 +1,6 @@
-# vuepress-plugin-nprogress
+# vuepress-plugin-medium-zoom
 
-> VuePress plugin for nprogress
+> VuePress plugin for medium-zoom
 
 ## Documentation
 
