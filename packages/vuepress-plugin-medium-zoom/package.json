@@ -5,8 +5,8 @@
   "keywords": [
     "image",
     "medium-zoom",
-    "nprogress",
     "plugin",
+    "vuepress",
     "zoom"
   ],
   "homepage": "https://github.com/vuepress",
