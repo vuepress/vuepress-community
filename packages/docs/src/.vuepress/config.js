@@ -57,7 +57,7 @@ module.exports = context => ({
     [
       'medium-zoom',
       {
-        selector: '.theme-default-content img:not(.no-zoom)',
+        selector: '.theme-default-content img:not(.no-medium-zoom)',
       },
     ],
     [
@@ -68,6 +68,12 @@ module.exports = context => ({
     ],
     ['serve'],
     ['smooth-scroll'],
+    [
+      'zooming',
+      {
+        selector: '.theme-default-content img.zooming',
+      },
+    ],
   ],
 
   locales: {

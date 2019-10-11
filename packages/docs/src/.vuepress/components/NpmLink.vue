@@ -6,7 +6,7 @@
     rel="noopener noreferrer"
   >
     <img
-      class="no-zoom"
+      class="no-medium-zoom"
       :src="`https://img.shields.io/npm/v/${pkg}.svg?style=flat-square`"
       alt="npm"
     />

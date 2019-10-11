@@ -9,7 +9,8 @@
     "dev": "yarn workspace docs dev",
     "postinstall": "yarn build",
     "lint": "yarn workspaces run lint",
-    "release": "yarn lerna publish"
+    "release": "yarn lerna publish",
+    "serve": "yarn workspace docs serve"
   },
   "husky": {
     "hooks": {

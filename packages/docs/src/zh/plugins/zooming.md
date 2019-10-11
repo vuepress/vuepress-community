@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-zooming <GitHubLink repo="vuepress/vuepress-plugin-zooming"/>
+# vuepress-plugin-zooming <GitHubLink repo="vuepress/vuepress-community"/>
 
 在你的 VuePress 站点中使用 [zooming](https://github.com/kingdido999/zooming)。
 
@@ -103,3 +103,9 @@ export default {
   },
 }
 ```
+
+## 演示
+
+点击图片：
+
+<img class="no-medium-zoom zooming" src="/logo/600x600.png" alt="演示" width="200"/>

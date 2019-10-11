@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-medium-zoom <GitHubLink repo="vuepress/vuepress-plugin-medium-zoom"/>
+# vuepress-plugin-medium-zoom <GitHubLink repo="vuepress/vuepress-community"/>
 
 Use [medium-zoom](https://github.com/francoischalifour/medium-zoom) in your VuePress site.
 
@@ -114,7 +114,7 @@ export default {
 }
 ```
 
-# Demo
+## Demo
 
 Click the image:
 

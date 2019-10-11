@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-medium-zoom <GitHubLink repo="vuepress/vuepress-plugin-medium-zoom"/>
+# vuepress-plugin-medium-zoom <GitHubLink repo="vuepress/vuepress-community"/>
 
 在你的 VuePress 站点中使用 [medium-zoom](https://github.com/francoischalifour/medium-zoom)。
 
@@ -114,7 +114,7 @@ export default {
 }
 ```
 
-# 演示
+## 演示
 
 点击图片：
 
