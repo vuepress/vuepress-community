@@ -6,7 +6,8 @@
   "scripts": {
     "build": "lerna run build --stream --ignore docs --ignore vuepress-types",
     "build:docs": "yarn workspace docs build",
-    "dev": "yarn workspace docs dev",
+    "dev": "yarn workspace docs dev --no-cache",
+    "dev:docs": "yarn workspace docs dev",
     "postinstall": "yarn build",
     "lint": "yarn workspaces run lint",
     "release": "lerna publish",
