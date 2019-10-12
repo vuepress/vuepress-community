@@ -1,0 +1,34 @@
+{
+  "name": "vuepress-plugin-table-of-contents",
+  "version": "1.0.2",
+  "description": "VuePress plugin for table of contents",
+  "keywords": [
+    "plugin",
+    "table-of-contents",
+    "tof",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "vuepress-types": "^0.1.0"
+  }
+}
