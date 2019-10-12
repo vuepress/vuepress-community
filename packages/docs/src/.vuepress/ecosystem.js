@@ -1,8 +1,8 @@
 const ecosystem = {
   plugins: [
+    'clean-urls',
     'container',
     'copyright',
-    'clean-urls',
     'dehydrate',
     'git-log',
     'mathjax',
