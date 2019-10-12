@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-container <GitHubLink repo="vuepress/vuepress-plugin-container"/>
+# vuepress-plugin-container <GitHubLink repo="vuepress/vuepress-community"/>
 
 Register markdown containers in your VuePress site.
 
@@ -18,7 +18,7 @@ npm install vuepress-plugin-container
 // .vuepress/config.js
 module.exports = {
   plugins: [
-    // you can use it multiple times
+    // you can use this plugin multiple times
     [
       'vuepress-plugin-container',
       {
@@ -32,6 +32,18 @@ module.exports = {
         type: 'theorem',
         before: info => `<div class="theorem"><p class="title">${info}</p>`,
         after: '</div>',
+      },
+    ],
+
+    // this is how VuePress Default Theme use this plugin
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'tip',
+        defaultTitle: {
+          '/': 'TIP',
+          '/zh/': '提示',
+        },
       },
     ],
   ],
@@ -75,35 +87,47 @@ write something here ~
 - **type:** `string | Record<string, string>`
 - **default:** the upper case of `type`
 
-The default title for the container. If no title is provided, `defaultTitle` will be shown as the title of the container. If an object was specified, the default title will depend on current locale.
+The default title for the container. If no title is provided, `defaultTitle` will be shown as the title of the container.
+
+Provide an object as locale config, and the default title will depend on current locale.
 
 ### before
 
-- **type:** `string | Function`
+- **type:** `string | ((info: string) => string)`
 - **default:** `undefined`
 
-String to be placed before the block. If specified as a function, an argument `info` will be passed to it. (In the example above, `info` will be `bar`.) If specified, it will override `defaultTitle`.
+String to be placed before the block.
+
+If specified as a function, an argument `info` will be passed to it. (In the example above, `info` will be `bar`.)
+
+If specified value or `before`, `defaultTitle` will be ignored.
 
 ### after
 
-- **type:** `string | Function`
+- **type:** `string | ((info: string) => string)`
 - **default:** `undefined`
 
-String to be placed after the block. If specified as a function, an argument `info` will be passed to it. (In the example above, `info` will be `bar`.) If specified, it will override `defaultTitle`.
+String to be placed after the block.
+
+If specified as a function, an argument `info` will be passed to it. (In the example above, `info` will be `bar`.)
 
 ### validate
 
-- **type:** `Function`
+- **type:** `((params: string) => boolean)`
 - **default:** `undefined`
 
 A function to validate tail after opening marker, should return `true` on success.
+
+> See [markdown-it-container API](https://github.com/markdown-it/markdown-it-container#api)
 
 ### render
 
 - **type:** `Function`
 - **default:** `undefined`
 
-The renderer function for opening/closing tokens. If specified, it will override `before`, `after` and `defaultTitle`.
+The renderer function for opening/closing tokens. If specified, `before`, `after` and `defaultTitle` will be ignored.
+
+> See [markdown-it-container API](https://github.com/markdown-it/markdown-it-container#api)
 
 ### marker
 
@@ -111,6 +135,8 @@ The renderer function for opening/closing tokens. If specified, it will override
 - **default:** `':'`
 
 The character to use as a delimiter.
+
+> See [markdown-it-container API](https://github.com/markdown-it/markdown-it-container#api)
 
 ## Demo
 
@@ -124,6 +150,10 @@ In an inertial frame of reference, an object either remains at rest or continues
 From [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
 :::
 :::
+
+::: tip
+Tip container of `@vuepress/theme-default`
+:::
 ```
 
 **Output**
@@ -133,4 +163,8 @@ In an inertial frame of reference, an object either remains at rest or continues
 
 ::: right
 From [Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion)
+:::
+
+::: tip
+Tip container of `@vuepress/theme-default`
 :::
