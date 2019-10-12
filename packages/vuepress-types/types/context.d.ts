@@ -1,3 +1,4 @@
+import { SiteConfig, ThemeConfig } from './config'
 import { Page, PageOptions } from './page'
 
 /**
@@ -28,10 +29,8 @@ export interface Context {
   vuepressDir: string
   libDir: string
   cwd: string
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  siteConfig: Record<string, any>
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  themeConfig: Record<string, any>
+  siteConfig: SiteConfig
+  themeConfig: ThemeConfig
   // TODO
   /* eslint-disable @typescript-eslint/no-explicit-any */
   pluginAPI: any
@@ -66,17 +65,9 @@ export interface Context {
 export interface ContextOptions {
   sourceDir?: string
   temp?: string
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  siteConfig?: Record<string, any>
+  siteConfig?: SiteConfig
 }
 
-export interface SiteData {
-  title: string
-  description: string
-  base: string
+export interface SiteData extends SiteConfig {
   pages: string[]
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  themeConfig: Record<string, any>
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  locales: Record<string, any>
 }

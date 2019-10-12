@@ -1,4 +1,7 @@
+import './vuepress'
+export * from './config'
 export * from './context'
 export * from './enhanceApp'
 export * from './page'
 export * from './plugin'
+export * from './store'

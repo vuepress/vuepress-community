@@ -4,18 +4,27 @@ import { Context } from './context'
  * @see https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/core/lib/node/Page.js
  */
 
-export interface PageConstructor {
-  new (options: PageOptions, context: Context): Page
-}
+// ==================
+// Page basic properties
+// ==================
 
-export interface Page {
+export interface BasePage {
   title: string
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  frontmatter: Record<string, any>
+  frontmatter: PageFrontmatter
   key: string
   path: string
   regularPath: string
   relativePath: string
+}
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type PageFrontmatter = Record<string, any>
+
+// ==================
+// Page in context
+// ==================
+
+export interface Page extends BasePage {
   readonly dirname: string
   readonly filename: string
   readonly slug: string
@@ -38,7 +47,27 @@ export interface PageOptions {
   filePath: string
   relative: string
   permalink: string
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  frontmatter: Record<string, any>
+  frontmatter: PageFrontmatter
   permalinkPattern: string
+}
+
+export interface PageConstructor {
+  new (options: PageOptions, context: Context): Page
+}
+
+// ==================
+// Page in computed
+// ==================
+
+export type PageComputed = BasePage & {
+  headers: PageComputedHeader[]
+
+  // default theme
+  lastUpdated?: string
+}
+
+export interface PageComputedHeader {
+  level: number
+  title: string
+  slug: string
 }

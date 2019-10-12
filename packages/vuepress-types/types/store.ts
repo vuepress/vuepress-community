@@ -10,7 +10,7 @@ export declare class Store {
   $on: typeof Vue.prototype.$on
 }
 
-declare class VuePress extends Store {
+export declare class VuePressStore extends Store {
   isPageExists(pageKey: string): boolean
 
   isPageLoaded(pageKey: string): boolean
@@ -24,6 +24,9 @@ declare class VuePress extends Store {
 
 declare module 'vue/types/vue' {
   export interface Vue {
-    $vuepress: VuePress
+    $vuepress: VuePressStore
+  }
+  export interface VueConstructor {
+    $vuepress: VuePressStore
   }
 }
