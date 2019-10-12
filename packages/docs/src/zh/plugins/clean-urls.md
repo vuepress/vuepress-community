@@ -11,7 +11,7 @@ sidebarDepth: 3
 
 **参考资料：**
 
-- Netify 用户: [https://www.netlify.com/docs/redirects/#trailing-slash](https://www.netlify.com/docs/redirects/#trailing-slash).
+- Netlify 用户: [https://www.netlify.com/docs/redirects/#trailing-slash](https://www.netlify.com/docs/redirects/#trailing-slash).
 - Surge 用户: [https://surge.sh/help/using-clean-urls-automatically](https://surge.sh/help/using-clean-urls-automatically).
   :::
 

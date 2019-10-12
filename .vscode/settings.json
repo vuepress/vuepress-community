@@ -30,5 +30,15 @@
       "autoFix": true
     }
   ],
-  "vetur.validation.template": false
+  "vetur.validation.template": false,
+  "cSpell.words": [
+    "frontmatter",
+    "mathjax",
+    "netlify",
+    "nprogress",
+    "prefetch",
+    "preload",
+    "vuepress",
+    "zoomable"
+  ]
 }

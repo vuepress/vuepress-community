@@ -11,7 +11,7 @@ This plugin will always work on your dev server, but VuePress **does not have th
 
 **References:**
 
-- For Netify users: [https://www.netlify.com/docs/redirects/#trailing-slash](https://www.netlify.com/docs/redirects/#trailing-slash).
+- For Netlify users: [https://www.netlify.com/docs/redirects/#trailing-slash](https://www.netlify.com/docs/redirects/#trailing-slash).
 - For Surge users: [https://surge.sh/help/using-clean-urls-automatically](https://surge.sh/help/using-clean-urls-automatically).
   :::
 

@@ -59,7 +59,7 @@ Selector for zoomable image elements.
 - **type:** `number`
 - **default:** `500`
 
-Make imgaes zoomable with delay after entering a page.
+Make images zoomable with delay after entering a page.
 
 ### options
 
