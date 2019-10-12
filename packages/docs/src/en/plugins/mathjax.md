@@ -66,7 +66,7 @@ The MathJax packages to use.
 
 Macros will be automatically mixed with built-in macros. To disable a built-in macro, simply set the value to `null` accordingly. Here is a list of all built-in macros:
 
-<<< @/src/defaultMacros.js
+<!-- <<< @/src/defaultMacros.js -->
 
 ### presets <Badge text="frontmatter"/>
 

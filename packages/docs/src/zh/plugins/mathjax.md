@@ -66,7 +66,7 @@ MathJax 的输出格式。
 
 输入的宏将与内置的宏进行混合。如果要取消一个内置的宏替换，可以将对应的值设为 `null`。下面是一张内置宏的列表：
 
-<<< @/src/defaultMacros.js
+<!-- <<< @/src/defaultMacros.js -->
 
 ### presets <Badge text="frontmatter"/>
 
