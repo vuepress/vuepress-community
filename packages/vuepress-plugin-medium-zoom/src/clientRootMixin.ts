@@ -2,8 +2,8 @@ import Vue from 'vue'
 import { VuepressMediumZoom } from './VuepressMediumZoom'
 import '../styles/index.styl'
 
-declare module 'vuepress-types/types/vuepress-1892' {
-  interface VuePress {
+declare module 'vuepress-types/types/store' {
+  interface VuePressStore {
     mediumZoom: VuepressMediumZoom
   }
 }
