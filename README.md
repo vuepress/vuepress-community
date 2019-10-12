@@ -9,24 +9,16 @@
 </h2>
 
 <p align="center">
-  <a href="https://github.com/vuepress/vuepress-community" target="_blank">
-    <img src="https://badgen.net/github/status/vuepress/vuepress-community">
-  </a>
-
   <a href="https://travis-ci.com/vuepress/vuepress-community" target="_blank">
     <img src="https://badgen.net/travis/vuepress/vuepress-community?label=docs">
   </a>
-
+  
   <a href="https://github.com/vuepress/vuepress-community/blob/master/LICENSE" target="_blank">
     <img src="https://badgen.net/github/license/vuepress/vuepress-community">
   </a>
 
-  <a href="https://github.com/vuepress/vuepress-community/issues" target="_blank">
-    <img src="https://badgen.net/github/issues/vuepress/vuepress-community">
-  </a>
-
-  <a href="https://github.com/vuepress/vuepress-community/network/dependents" target="_blank">
-    <img src="https://badgen.net/github/dependents-repo/vuepress/vuepress-community?label=used%20by">
+  <a href="https://github.com/vuepress/vuepress-community/commits" target="_blank">
+    <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community">
   </a>
 </p>
 
