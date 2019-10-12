@@ -1,4 +1,4 @@
-import { Plugin } from 'vuepress-types'
+import { Plugin, PluginGeneratedFile } from 'vuepress-types'
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path')
@@ -12,10 +12,15 @@ const TableOfContentsPlugin: Plugin = ({
 }: TableOfContentsPluginOptions) => ({
   name: 'vuepress-plugin-table-of-contents',
 
-  enhanceAppFiles: path.resolve(__dirname, 'enhanceApp.js'),
-
-  define: {
-    TOC_COMPONENT_NAME: componentName,
+  enhanceAppFiles(): PluginGeneratedFile {
+    return {
+      name: `plugin-table-of-contents.js`,
+      content: `export default ({ Vue }) => Vue.component(${JSON.stringify(
+        componentName
+      )}, () => import(${JSON.stringify(
+        path.resolve(__dirname, 'components/TableOfContents')
+      )}))`,
+    }
   },
 })
 
