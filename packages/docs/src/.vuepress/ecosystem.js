@@ -13,6 +13,7 @@ const ecosystem = {
     'redirect',
     'serve',
     'smooth-scroll',
+    'table-of-contents',
     'zooming',
   ],
   themes: [],

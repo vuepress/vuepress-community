@@ -68,6 +68,7 @@ module.exports = context => ({
     ],
     ['serve'],
     ['smooth-scroll'],
+    ['table-of-contents'],
     [
       'zooming',
       {
