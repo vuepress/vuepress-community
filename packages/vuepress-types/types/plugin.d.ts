@@ -41,4 +41,5 @@ export interface PluginOptionAPI {
   additionalPages?: PageOptions[] | Promise<PageOptions[]>
   globalUIComponents?: string | string[]
   extendCli?: (cli: CAC) => void
+  multiple?: boolean
 }
