@@ -1,0 +1,40 @@
+{
+  "name": "vuepress-plugin-container",
+  "version": "2.0.2",
+  "description": "VuePress plugin for markdown container",
+  "keywords": [
+    "container",
+    "markdown",
+    "plugin",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "contributors": [
+    "meteorlxy <meteor.lxy@foxmail.com>"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "markdown-it-container": "^2.0.0"
+  },
+  "devDependencies": {
+    "vuepress-types": "0.2.0"
+  }
+}
