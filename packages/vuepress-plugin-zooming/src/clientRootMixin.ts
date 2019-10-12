@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import { VuepressZooming } from './VuepressZooming'
 
-declare module 'vuepress-types/types/vuepress-1892' {
-  interface VuePress {
+declare module 'vuepress-types/types/store' {
+  interface VuePressStore {
     zooming: VuepressZooming
   }
 }
