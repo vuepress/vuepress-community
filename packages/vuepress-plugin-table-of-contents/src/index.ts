@@ -3,7 +3,13 @@ import { Plugin } from 'vuepress-types'
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path')
 
-const TableOfContentsPlugin: Plugin = ({ componentName = 'TOC' }) => ({
+export interface TableOfContentsPluginOptions {
+  componentName: string
+}
+
+const TableOfContentsPlugin: Plugin = ({
+  componentName = 'TOC',
+}: TableOfContentsPluginOptions) => ({
   name: 'vuepress-plugin-table-of-contents',
 
   enhanceAppFiles: path.resolve(__dirname, 'enhanceApp.js'),
