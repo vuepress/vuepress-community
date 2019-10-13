@@ -17,6 +17,10 @@
     <img src="https://badgen.net/github/license/vuepress/vuepress-community">
   </a>
 
+  <a href="https://lgtm.com/projects/g/vuepress/vuepress-community" target="_blank">
+    <img src="https://badgen.net/lgtm/grade/g/vuepress/vuepress-community">
+  </a>
+
   <a href="https://github.com/vuepress/vuepress-community/commits" target="_blank">
     <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community">
   </a>
