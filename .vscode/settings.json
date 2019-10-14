@@ -38,6 +38,7 @@
     "nprogress",
     "prefetch",
     "preload",
+    "serializers",
     "vuepress",
     "zoomable"
   ]

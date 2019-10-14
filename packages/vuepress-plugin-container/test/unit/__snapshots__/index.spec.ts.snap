@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers hint-default.md 1`] = `
+<div class="custom-block hint">
+  <p class="custom-block-title">💡 HINT</p>
+  <p>This is a hint.</p>
+</div>
+`;
+
+exports[`containers hint-locale-jp.md 1`] = `
+<div class="custom-block hint">
+  <p class="custom-block-title">ヒント</p>
+  <p>これはヒントです。</p>
+</div>
+`;
+
+exports[`containers hint-override.md 1`] = `
+<div class="custom-block hint">
+  <p class="custom-block-title">提示</p>
+  <p>这是一句提示。</p>
+</div>
+`;
+
+exports[`containers theorem.md 1`] = `
+<div class="theorem">
+  <p class="title">Newton's First Law</p>
+  <p>In an inertial frame of reference, an object either remains at rest or continues to move at a constant velocity, unless acted upon by a force.</p>
+</div>
+`;
