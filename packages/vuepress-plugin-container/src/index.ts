@@ -29,7 +29,7 @@ function wrapRenderPlaceFunction(
   return func
 }
 
-const ContainerPlugin: Plugin = ({
+const ContainerPlugin: Plugin<ContainerPluginOptions> = ({
   validate,
   marker,
   render,
@@ -37,7 +37,7 @@ const ContainerPlugin: Plugin = ({
   before,
   after,
   defaultTitle = type.toUpperCase(),
-}: ContainerPluginOptions) => {
+}) => {
   const options: PluginOptionAPI = {
     name: 'vuepress-plugin-container',
     multiple: true,

@@ -10,11 +10,11 @@ export interface MediumZoomPluginOptions {
   delay: number
 }
 
-const MediumZoomPlugin: Plugin = ({
+const MediumZoomPlugin: Plugin<MediumZoomPluginOptions> = ({
   selector = '.theme-default-content img',
   options = {},
   delay = 500,
-}: MediumZoomPluginOptions) => ({
+}) => ({
   name: 'vuepress-plugin-medium-zoom',
 
   clientRootMixin: path.resolve(__dirname, 'clientRootMixin.js'),

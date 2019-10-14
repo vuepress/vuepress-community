@@ -27,11 +27,11 @@ export interface ZoomingPluginOptions {
   delay: number
 }
 
-const ZoomingPlugin: Plugin = ({
+const ZoomingPlugin: Plugin<ZoomingPluginOptions> = ({
   selector = '.theme-default-content img',
   options = {},
   delay = 500,
-}: ZoomingPluginOptions) => ({
+}) => ({
   name: 'vuepress-plugin-zooming',
 
   clientRootMixin: path.resolve(__dirname, 'clientRootMixin.js'),

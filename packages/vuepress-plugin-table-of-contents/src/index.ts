@@ -7,9 +7,9 @@ export interface TableOfContentsPluginOptions {
   componentName: string
 }
 
-const TableOfContentsPlugin: Plugin = ({
+const TableOfContentsPlugin: Plugin<TableOfContentsPluginOptions> = ({
   componentName = 'TOC',
-}: TableOfContentsPluginOptions) => ({
+}) => ({
   name: 'vuepress-plugin-table-of-contents',
 
   enhanceAppFiles(): PluginGeneratedFile {
