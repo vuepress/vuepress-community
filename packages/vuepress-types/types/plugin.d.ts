@@ -6,13 +6,14 @@ import { Context } from './context'
 import { Markdown } from './markdown'
 import { Page, PageOptions } from './page'
 
-export type Plugin =
-  | PluginOptionAPI
-  | ((
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      pluginOptions: any,
-      context: Context
-    ) => PluginOptionAPI)
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type Plugin<Options = any> = PluginOptionAPI | PluginFunction<Options>
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type PluginFunction<Options = any> = (
+  pluginOptions: Options,
+  context: Context
+) => PluginOptionAPI
 
 export interface PluginGeneratedFile {
   name: string
