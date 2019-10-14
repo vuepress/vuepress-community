@@ -1,4 +1,5 @@
-import { SiteConfig, ThemeConfig } from './config'
+import { PluginConfig, SiteConfig, ThemeConfig } from './config'
+import { Markdown } from './markdown'
 import { Page, PageOptions } from './page'
 
 /**
@@ -9,6 +10,8 @@ import { Page, PageOptions } from './page'
 export interface ContextConstructor {
   new (options: ContextOptions): Context
 }
+
+export type App = Context
 
 export interface Context {
   /**
@@ -31,6 +34,7 @@ export interface Context {
   cwd: string
   siteConfig: SiteConfig
   themeConfig: ThemeConfig
+  markdown: Markdown
   // TODO
   /* eslint-disable @typescript-eslint/no-explicit-any */
   pluginAPI: any
@@ -64,8 +68,10 @@ export interface Context {
 
 export interface ContextOptions {
   sourceDir?: string
+  dest?: string
   temp?: string
   siteConfig?: SiteConfig
+  plugins?: PluginConfig[]
 }
 
 export interface SiteData extends SiteConfig {
