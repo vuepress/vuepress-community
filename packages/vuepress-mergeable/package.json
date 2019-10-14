@@ -1,0 +1,39 @@
+{
+  "name": "vuepress-mergeable",
+  "version": "1.0.2",
+  "description": "VuePress tool to customize how a plugin merges its options",
+  "keywords": [
+    "plugin",
+    "tool",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "contributors": [
+    "meteorlxy <meteor.lxy@foxmail.com>"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "deconstruct-merge": "^1.1.0"
+  },
+  "devDependencies": {
+    "vuepress-types": "0.2.0"
+  }
+}
