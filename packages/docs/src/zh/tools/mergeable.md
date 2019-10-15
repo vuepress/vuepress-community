@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-mergeable <GitHubLink repo="vuepress/vuepress-mergeable"/>
+# vuepress-mergeable <GitHubLink repo="vuepress/vuepress-community"/>
 
 `vuepress-mergeable` 基于 [deconstruct-merge](https://github.com/Shigma/deconstruct-merge)，可以用于定制化 VuePress 插件选项合并的方式。
 

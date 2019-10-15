@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-mergeable <GitHubLink repo="vuepress/vuepress-mergeable"/>
+# vuepress-mergeable <GitHubLink repo="vuepress/vuepress-community"/>
 
 `vuepress-mergeable` is a tool for customizing how a VuePress plugin merges its options based on [deconstruct-merge](https://github.com/Shigma/deconstruct-merge).
 
