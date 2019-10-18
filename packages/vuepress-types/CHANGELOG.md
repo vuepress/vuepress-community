@@ -7,7 +7,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-- **vuepress-types:** mutliple in plugin options ([9b27e1f](https://github.com/vuepress/vuepress-community/commit/9b27e1f5826ca6893c60f7d89e0af8a8d45a197e))
+- **vuepress-types:** multiple in plugin options ([9b27e1f](https://github.com/vuepress/vuepress-community/commit/9b27e1f5826ca6893c60f7d89e0af8a8d45a197e))
 
 ### Features
 
