@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-table-of-contents",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "VuePress plugin for table of contents",
   "keywords": [
     "plugin",

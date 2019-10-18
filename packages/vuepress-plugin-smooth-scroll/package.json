@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-smooth-scroll",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "VuePress plugin for smooth scrolling",
   "keywords": [
     "plugin",
