@@ -2301,7 +2301,7 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-back-to-top@^1.0.0":
+"@vuepress/plugin-back-to-top@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-back-to-top/-/plugin-back-to-top-1.2.0.tgz#f6bb2f57317e94a6b0b6854719f3088481f2c0dd"
   integrity sha512-QGFT5llXnqs/nrUmNql4jZuqo5VTKx/hsK9j1uNRdGBkyiqMs6h+brSpwTKtUqh/XwsCGn7FGPZLaYNkw7Oi8w==
@@ -12075,13 +12075,6 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-mergeable@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vuepress-mergeable/-/vuepress-mergeable-1.0.2.tgz#505078814faa4cfdf2185cc79c7462a12c3c9919"
-  integrity sha512-yzOzt7E5K2hl55Qx0CRlsj/rf0Zn70oHY/sqFmmQccriJ43k+7nsgIdS2t02V7CO+EC86lG0yqNeBRQR/o9Dww==
-  dependencies:
-    deconstruct-merge "^1.1.0"
-
 vuepress-plugin-clean-urls@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-clean-urls/-/vuepress-plugin-clean-urls-1.0.3.tgz#87ef2349d6d1f835dc2519abeb0cb99ccf1698a5"
@@ -12101,7 +12094,7 @@ vuepress-plugin-dehydrate@^1.0.0:
   dependencies:
     "@vuepress/shared-utils" "^1.0.2"
 
-vuepress-plugin-git-log@^1.0.0:
+vuepress-plugin-git-log@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-git-log/-/vuepress-plugin-git-log-1.0.1.tgz#22a6053ac2a2c9a8b5e9b5c4b08dcaa6dbf1d3f2"
   integrity sha512-oVUfHdfvP0e7JBRIgwJ/Kmxj1AO+JJyTEsNRnBRw7YBlIfJIIC/zcGFidupsw6LSr1+UTHdGqn2vlYr8Ade6Fw==
@@ -12117,7 +12110,7 @@ vuepress-plugin-mathjax@^1.2.8:
     mathjax3 "3.0.0-beta.3"
     vuepress-mergeable "^1.0.2"
 
-vuepress-plugin-redirect@^1.1.0:
+vuepress-plugin-redirect@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-redirect/-/vuepress-plugin-redirect-1.1.2.tgz#fcadb38493f2b4c37c965eea6135f5431ab25b6a"
   integrity sha512-4TwPsr1M8U7diuUG9M1l2lz9HZPExn4+96i66crjZe1Wk7kE5Nx/PWNwIUVdGH1ZgIhu8VAfrivRencT9kPemg==
@@ -12125,7 +12118,7 @@ vuepress-plugin-redirect@^1.1.0:
     "@shigma/stringify-object" "^3.3.0"
     vuepress-plugin-dehydrate "^1.0.0"
 
-vuepress-plugin-serve@^1.0.1:
+vuepress-plugin-serve@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-serve/-/vuepress-plugin-serve-1.1.0.tgz#ff611d6e09ee8f9a76af947b136332433e8966ef"
   integrity sha512-/CmKeLb0+syzilj2HySTL6LdVzI1b8koHb171LTFDg4wqe6ldtbm5ox/ZXIPqA8L8m96VmJ4sgjA6Vr70yzoKQ==
@@ -12141,7 +12134,7 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress@^1.1.0, vuepress@^1.2.0:
+vuepress@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-1.2.0.tgz#2f2cdf337ad40a3e4866dfd33e97b840db386af7"
   integrity sha512-EfHo8Cc73qo+1Pm18hM0qOGynmDr8q5fu2664obynsdCJ1zpvoShVnA0Msraw4SI2xDc0iAoIb3dTwxUIM8DAw==

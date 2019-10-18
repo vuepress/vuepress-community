@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "@types/nprogress": "^0.2.0",
-    "vuepress-types": "0.2.0"
+    "vuepress-types": "0.4.0"
   }
 }

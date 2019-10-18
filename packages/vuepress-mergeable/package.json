@@ -34,6 +34,6 @@
     "deconstruct-merge": "^1.1.0"
   },
   "devDependencies": {
-    "vuepress-types": "0.2.0"
+    "vuepress-types": "0.4.0"
   }
 }
