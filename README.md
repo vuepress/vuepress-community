@@ -9,20 +9,24 @@
 </h2>
 
 <p align="center">
+  <a href="https://circleci.com/gh/vuepress/workflows/vuepress-community" target="_blank">
+    <img src="https://badgen.net/circleci/github/vuepress/vuepress-community/master?icon=circleci">
+  </a>
+
   <a href="https://travis-ci.com/vuepress/vuepress-community" target="_blank">
-    <img src="https://badgen.net/travis/vuepress/vuepress-community?label=docs">
+    <img src="https://badgen.net/travis/vuepress/vuepress-community?label=docs&icon=travis">
+  </a>
+
+  <a href="https://lgtm.com/projects/g/vuepress/vuepress-community" target="_blank">
+    <img src="https://badgen.net/lgtm/grade/g/vuepress/vuepress-community?icon=lgtm">
+  </a>
+
+  <a href="https://github.com/vuepress/vuepress-community/commits" target="_blank">
+    <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community?icon=github">
   </a>
   
   <a href="https://github.com/vuepress/vuepress-community/blob/master/LICENSE" target="_blank">
     <img src="https://badgen.net/github/license/vuepress/vuepress-community">
-  </a>
-
-  <a href="https://lgtm.com/projects/g/vuepress/vuepress-community" target="_blank">
-    <img src="https://badgen.net/lgtm/grade/g/vuepress/vuepress-community">
-  </a>
-
-  <a href="https://github.com/vuepress/vuepress-community/commits" target="_blank">
-    <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community">
   </a>
 </p>
 
