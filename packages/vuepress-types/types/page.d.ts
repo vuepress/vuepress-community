@@ -17,8 +17,17 @@ export interface BasePage {
   relativePath: string
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export type PageFrontmatter = Record<string, any>
+export interface PageFrontmatter {
+  permalink?: string
+  title?: string
+  description?: string
+  lang?: string
+  layout?: string
+  metaTitle?: string
+  meta?: Record<'charset' | 'content' | 'http-equiv' | 'name', string>[]
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  [key: string]: any
+}
 
 // ==================
 // Page in context
