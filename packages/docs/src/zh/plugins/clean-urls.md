@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-clean-urls <GitHubLink repo="vuepress/vuepress-plugin-clean-urls"/>
+# vuepress-plugin-clean-urls <GitHubLink repo="vuepress/vuepress-plugin-community"/>
 
 使你的 VuePress 站点支持简洁链接。
 
@@ -13,7 +13,8 @@ sidebarDepth: 3
 
 - Netlify 用户: [https://www.netlify.com/docs/redirects/#trailing-slash](https://www.netlify.com/docs/redirects/#trailing-slash).
 - Surge 用户: [https://surge.sh/help/using-clean-urls-automatically](https://surge.sh/help/using-clean-urls-automatically).
-  :::
+
+:::
 
 ## 安装
 

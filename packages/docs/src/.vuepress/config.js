@@ -18,6 +18,8 @@ module.exports = context => ({
       'clean-urls',
       {
         normalSuffix: '/',
+        indexSuffix: '/',
+        notFoundPath: '/404.html',
       },
     ],
     [

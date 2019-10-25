@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-clean-urls <GitHubLink repo="vuepress/vuepress-plugin-clean-urls"/>
+# vuepress-plugin-clean-urls <GitHubLink repo="vuepress/vuepress-community"/>
 
 Provides support for clean urls in your VuePress site.
 
@@ -13,7 +13,8 @@ This plugin will always work on your dev server, but VuePress **does not have th
 
 - For Netlify users: [https://www.netlify.com/docs/redirects/#trailing-slash](https://www.netlify.com/docs/redirects/#trailing-slash).
 - For Surge users: [https://surge.sh/help/using-clean-urls-automatically](https://surge.sh/help/using-clean-urls-automatically).
-  :::
+
+:::
 
 ## Installation
 
