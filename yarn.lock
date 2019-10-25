@@ -12075,11 +12075,6 @@ vuepress-html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-vuepress-plugin-clean-urls@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-clean-urls/-/vuepress-plugin-clean-urls-1.0.3.tgz#87ef2349d6d1f835dc2519abeb0cb99ccf1698a5"
-  integrity sha512-fdsK2e+cTm8mVRm2S8TcnlijPZTX31v61sqUx+4Xiq+KqB05UQlpKI1lz1gte59L8VeDoOE0JjoGXpDFTFlqcQ==
-
 vuepress-plugin-copyright@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-copyright/-/vuepress-plugin-copyright-1.0.2.tgz#d5cc73af82028e073d4cd82e3ef99012ad8f79cc"
