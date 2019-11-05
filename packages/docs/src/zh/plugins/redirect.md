@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-redirect <GitHubLink repo="vuepress/vuepress-plugin-redirect"/>
+# vuepress-plugin-redirect <GitHubLink repo="vuepress/vuepress-community"/>
 
 VuePress 内置了[多语言系统](https://vuepress.vuejs.org/zh/guide/i18n.html)，但你必须提供一个默认语言，否则直接访问 `/` 将只能得到 404。然而，提供默认语言往往又意味着不那么友好的项目结构（因为默认语言下的文件会比其他语言低一级），我们有时也希望网站保留 `/` 用于更加智能地重定向（比如根据 `navigator.language` 判断用户所使用的语言自动定向到相关页面）。`vuepress-plugin-redirect` 就是这样一个自动重定向的插件。当然，它所能做的事情不止是自动匹配语言，你可以通过定制你的重定向器实现任何页面到子页面的重定向。
 
