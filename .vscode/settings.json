@@ -39,6 +39,8 @@
     "nprogress",
     "prefetch",
     "preload",
+    "redirector",
+    "redirectors",
     "serializers",
     "vuepress",
     "zoomable"

@@ -12082,7 +12082,7 @@ vuepress-plugin-copyright@^1.0.2:
   dependencies:
     "@shigma/stringify-object" "^3.3.0"
 
-vuepress-plugin-dehydrate@^1.0.0:
+vuepress-plugin-dehydrate@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-dehydrate/-/vuepress-plugin-dehydrate-1.0.3.tgz#75dafa70272e3bdd33401e732c98bc649c501b9c"
   integrity sha512-nIVVFe5ZzESPX5IzDL/GCQbD03x50A/HZXBYlqdsv187wJ0HOkJHM878WlUrD+4Ey0VjMfh3ZLCMqVg2e0p60w==
@@ -12104,14 +12104,6 @@ vuepress-plugin-mathjax@^1.2.8:
     lru-cache "^5.1.1"
     mathjax3 "3.0.0-beta.3"
     vuepress-mergeable "^1.0.2"
-
-vuepress-plugin-redirect@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-redirect/-/vuepress-plugin-redirect-1.1.2.tgz#fcadb38493f2b4c37c965eea6135f5431ab25b6a"
-  integrity sha512-4TwPsr1M8U7diuUG9M1l2lz9HZPExn4+96i66crjZe1Wk7kE5Nx/PWNwIUVdGH1ZgIhu8VAfrivRencT9kPemg==
-  dependencies:
-    "@shigma/stringify-object" "^3.3.0"
-    vuepress-plugin-dehydrate "^1.0.0"
 
 vuepress-plugin-serve@^1.1.0:
   version "1.1.0"
