@@ -29,8 +29,7 @@
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
     "lint": "eslint --ext .ts src",
-    "prepublishOnly": "yarn build",
-    "test": "jest"
+    "prepublishOnly": "yarn build"
   },
   "dependencies": {
     "markdown-it-container": "^2.0.0"
