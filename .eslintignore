@@ -1,3 +1,4 @@
 node_modules/
 !.vuepress/
+!.eslintrc.js
 lib/

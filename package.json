@@ -49,10 +49,6 @@
     ]
   },
   "prettier": "prettier-config-vuepress",
-  "eslintConfig": {
-    "extends": "vuepress-typescript",
-    "root": true
-  },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
