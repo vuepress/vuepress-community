@@ -31,8 +31,5 @@
   },
   "dependencies": {
     "zooming": "^2.1.1"
-  },
-  "devDependencies": {
-    "vuepress-types": "0.4.0"
   }
 }

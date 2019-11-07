@@ -35,8 +35,5 @@
   "dependencies": {
     "@shigma/stringify-object": "^3.3.0",
     "vuepress-plugin-dehydrate": "1.0.3"
-  },
-  "devDependencies": {
-    "vuepress-types": "0.4.0"
   }
 }

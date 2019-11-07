@@ -27,8 +27,5 @@
     "build": "rimraf lib && tsc -p tsconfig.json",
     "lint": "eslint --ext .ts src",
     "prepublishOnly": "yarn build"
-  },
-  "devDependencies": {
-    "vuepress-types": "0.4.0"
   }
 }
