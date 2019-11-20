@@ -2334,7 +2334,7 @@
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-1.2.0.tgz#0b27c467b7fd42bd4d9e32de0fe2fb81a24bd311"
   integrity sha512-QU3JfnMfImDAArbJOVH1q1iCDE5QrT99GLpNGo6KQYZWqY1TWAbgyf8C2hQdaI03co1lkU2Wn/iqzHJ5WHlueg==
 
-"@vuepress/shared-utils@^1.0.2", "@vuepress/shared-utils@^1.2.0":
+"@vuepress/shared-utils@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@vuepress/shared-utils/-/shared-utils-1.2.0.tgz#8d9ab40c24f75f027ef32c2ad0169f0f08e949fa"
   integrity sha512-wo5Ng2/xzsmIYCzvWxgLFlDBp7FkmJp2shAkbSurLNAh1vixhs0+LyDxsk01+m34ktJSp9rTUUsm6khw/Fvo0w==
@@ -12081,13 +12081,6 @@ vuepress-plugin-copyright@^1.0.2:
   integrity sha512-SWiyqqU8StPGB6WxzVTbRMUyyE0g6lJoP9SDoOua5PHUeawd8XdDBAaCCGRrmd2JDMvCDZlNYHTHgsKJncuU2g==
   dependencies:
     "@shigma/stringify-object" "^3.3.0"
-
-vuepress-plugin-dehydrate@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-dehydrate/-/vuepress-plugin-dehydrate-1.0.3.tgz#75dafa70272e3bdd33401e732c98bc649c501b9c"
-  integrity sha512-nIVVFe5ZzESPX5IzDL/GCQbD03x50A/HZXBYlqdsv187wJ0HOkJHM878WlUrD+4Ey0VjMfh3ZLCMqVg2e0p60w==
-  dependencies:
-    "@vuepress/shared-utils" "^1.0.2"
 
 vuepress-plugin-git-log@^1.0.1:
   version "1.0.1"

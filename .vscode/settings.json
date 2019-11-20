@@ -33,6 +33,7 @@
   "vetur.validation.template": false,
   "cSpell.words": [
     "frontmatter",
+    "globby",
     "mathjax",
     "mergeable",
     "netlify",

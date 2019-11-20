@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`vuepress-plugin-dehydrate 404.html 1`] = `
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.css" as="style">
+    <link rel="preload" href="/assets/js/styles.js" as="script">
+    <link rel="preload" href="/assets/js/app.js" as="script">
+    <link rel="preload" href="/assets/js/2.js" as="script">
+    <link rel="prefetch" href="/assets/js/3.js">
+    <link rel="prefetch" href="/assets/js/4.js">
+    <link rel="prefetch" href="/assets/js/5.js">
+    <link rel="prefetch" href="/assets/js/6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.css">
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script src="/assets/js/styles.js" defer></script>
+    <script src="/assets/js/2.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </body>
+
+</html>
+`;
+
+exports[`vuepress-plugin-dehydrate index.html 1`] = `
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="description" content="">
+    <link rel="preload" href="/assets/css/0.styles.css" as="style">
+    <link rel="preload" href="/assets/js/styles.js" as="script">
+    <link rel="preload" href="/assets/js/app.js" as="script">
+    <link rel="preload" href="/assets/js/3.js" as="script">
+    <link rel="preload" href="/assets/js/5.js" as="script">
+    <link rel="prefetch" href="/assets/js/2.js">
+    <link rel="prefetch" href="/assets/js/4.js">
+    <link rel="prefetch" href="/assets/js/6.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="content__default">
+        <p>readme</p>
+      </div>
+      <div class="global-ui"></div>
+    </div>
+    <script src="/assets/js/styles.js" defer></script>
+    <script src="/assets/js/3.js" defer></script>
+    <script src="/assets/js/5.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </body>
+
+</html>
+`;
+
+exports[`vuepress-plugin-dehydrate noscript.html 1`] = `
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="/assets/css/0.styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="content__default">
+        <p>noscript</p>
+      </div>
+      <div class="global-ui"></div>
+    </div>
+  </body>
+
+</html>
+`;
