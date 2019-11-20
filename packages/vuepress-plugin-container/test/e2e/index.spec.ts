@@ -4,11 +4,12 @@ import { createApp } from '@vuepress/core'
 
 const fragmentDir = path.join(__dirname, '__fragments__')
 
-describe('containers', () => {
+describe('vuepress-plugin-container', () => {
   let app: App
 
   beforeAll(async () => {
     app = createApp({
+      temp: path.resolve(__dirname, '.temp'),
       plugins: [
         [
           'vuepress-plugin-container',
