@@ -8,8 +8,7 @@ node_modules/
 .DS_Store
 
 # Log files
-yarn-debug.log*
-yarn-error.log*
+*.log
 
 # Typescript build info
 *.tsbuildinfo
