@@ -10,8 +10,7 @@
     "dev:docs": "yarn workspace docs dev",
     "postinstall": "yarn build",
     "lint": "lerna run lint --stream",
-    "prepublishOnly": "yarn lint && yarn test",
-    "release": "lerna publish",
+    "release": "yarn lint && yarn build && yarn test && lerna publish",
     "serve": "yarn workspace docs serve",
     "test": "jest"
   },

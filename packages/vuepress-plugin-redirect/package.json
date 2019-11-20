@@ -29,8 +29,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
-    "lint": "eslint --ext .ts src",
-    "prepublishOnly": "yarn build"
+    "lint": "eslint --ext .ts src"
   },
   "dependencies": {
     "@shigma/stringify-object": "^3.3.0",
