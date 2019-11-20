@@ -29,6 +29,6 @@
     "@types/webpack-dev-server": "^3.1.7"
   },
   "peerDependencies": {
-    "vuepress": "^1.1.0"
+    "vuepress": "^1.2.0"
   }
 }

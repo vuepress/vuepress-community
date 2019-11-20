@@ -41,6 +41,9 @@ export interface Context {
   themeAPI: any
   ClientComputedMixinConstructor: any
   /* eslint-enable @typescript-eslint/no-explicit-any */
+  ssrTemplate: string
+  devTemplate: string
+  globalLayout: string
 
   // private
   resolveConfigAndInitialize: () => void

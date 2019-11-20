@@ -44,4 +44,9 @@ export interface PluginOptionAPI {
   globalUIComponents?: string | string[]
   extendCli?: (cli: CAC) => void
   multiple?: boolean
+  // Life Cycle
+  // https://vuepress.vuejs.org/plugin/life-cycle.html
+  ready?: () => void | Promise<void>
+  updated?: () => void | Promise<void>
+  generated?: (pagePaths: string[]) => void | Promise<void>
 }
