@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.4.0...vuepress-types@0.5.0) (2019-11-20)
+
+### Features
+
+- **vuepress-types:** page frontmatter ([e5cef7b](https://github.com/vuepress/vuepress-community/commit/e5cef7b6ebe98d3f64e95f7de23cf00a1072cb93))
+- **vuepress-types:** templates and life cycles ([fbf9579](https://github.com/vuepress/vuepress-community/commit/fbf9579611ce15be78bd59ae863d24c853007a29))
+
 # [0.4.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.2.0...vuepress-types@0.4.0) (2019-10-18)
 
 ### Bug Fixes
