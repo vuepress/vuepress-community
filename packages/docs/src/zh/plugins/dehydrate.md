@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-dehydrate <GitHubLink repo="vuepress/vuepress-plugin-dehydrate"/>
+# vuepress-plugin-dehydrate <GitHubLink repo="vuepress/vuepress-community"/>
 
 修改你的 VuePress 生成的 HTML 文件。
 

@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-dehydrate <GitHubLink repo="vuepress/vuepress-plugin-dehydrate"/>
+# vuepress-plugin-dehydrate <GitHubLink repo="vuepress/vuepress-community"/>
 
 Dehydrate generated HTML files of your VuePress site.
 
