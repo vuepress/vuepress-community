@@ -20,12 +20,6 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional",
-      "@commitlint/config-lerna-scopes"
-    ]
-  },
   "lint-staged": {
     "*.{js,ts,vue}": [
       "eslint --fix",
@@ -44,7 +38,6 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
-    "@commitlint/config-lerna-scopes": "^8.2.0",
     "@types/jest": "^24.0.18",
     "eslint": "^6.4.0",
     "eslint-config-vuepress": "^2.1.0",
