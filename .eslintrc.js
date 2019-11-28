@@ -1,7 +1,14 @@
 module.exports = {
   root: true,
-  extends: 'vuepress-typescript',
+  extends: 'vuepress',
   overrides: [
+    {
+      files: ['*.ts'],
+      extends: 'vuepress-typescript',
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
     {
       files: ['packages/*/test/**/*.ts'],
       env: {
@@ -9,13 +16,6 @@ module.exports = {
       },
       rules: {
         '@typescript-eslint/explicit-function-return-type': 'off',
-      },
-    },
-    {
-      files: ['*.js'],
-      rules: {
-        '@typescript-eslint/explicit-function-return-type': 'off',
-        '@typescript-eslint/no-var-requires': 'off',
       },
     },
   ],
