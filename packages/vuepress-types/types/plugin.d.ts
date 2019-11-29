@@ -36,7 +36,7 @@ export interface PluginOptionAPI {
   enhanceAppFiles?:
     | string
     | string[]
-    | (() => PluginGeneratedFile | PluginGeneratedFile[])
+    | (() => PluginGeneratedFile | PluginGeneratedFile[] | string | string[])
   clientDynamicModules?: () => PluginGeneratedFile | PluginGeneratedFile[]
   extendPageData?: (page: Page) => void | Promise<void>
   clientRootMixin?: string
