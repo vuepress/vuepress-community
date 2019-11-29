@@ -16,8 +16,10 @@
   </a>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue'
+
+export default Vue.extend({
   name: 'GitHubLink',
 
   props: {
@@ -26,11 +28,10 @@ export default {
       required: true,
     },
   },
-}
+})
 </script>
 
 <style lang="stylus">
-
 .github-link
   width 1em
   height 1em

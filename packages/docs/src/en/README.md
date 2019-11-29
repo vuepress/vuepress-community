@@ -24,6 +24,7 @@ Community supported ecosystem for VuePress.
 |             [serve](./plugins/serve.md)             |       <NpmLink pkg="vuepress-plugin-serve"/>       | :key: Serve generated files in VuePress                     |
 |     [smooth-scroll](./plugins/smooth-scroll.md)     |   <NpmLink pkg="vuepress-plugin-smooth-scroll"/>   | :roller_coaster: Make scrolling smooth in VuePress          |
 | [table-of-contents](./plugins/table-of-contents.md) | <NpmLink pkg="vuepress-plugin-table-of-contents"/> | :bookmark: Provides table-of-contents component in VuePress |
+|        [typescript](./plugins/typescript.md)        |    <NpmLink pkg="vuepress-plugin-typescript"/>     | :palm_tree: Support TypeScript in VuePress                  |
 |           [zooming](./plugins/zooming.md)           |      <NpmLink pkg="vuepress-plugin-zooming"/>      | :mag: Make images zoomable in VuePress                      |
 
 ## Tools

@@ -14,6 +14,7 @@ const ecosystem = {
     'serve',
     'smooth-scroll',
     'table-of-contents',
+    'typescript',
     'zooming',
   ],
   themes: [],

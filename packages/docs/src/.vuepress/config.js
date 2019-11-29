@@ -72,6 +72,14 @@ module.exports = context => ({
     ['smooth-scroll'],
     ['table-of-contents'],
     [
+      'typescript',
+      {
+        tsLoaderOptions: {
+          transpileOnly: true,
+        },
+      },
+    ],
+    [
       'zooming',
       {
         selector: '.theme-default-content img.zooming',

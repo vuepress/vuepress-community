@@ -24,6 +24,7 @@ sidebar: false
 |             [serve](./plugins/serve.md)             |       <NpmLink pkg="vuepress-plugin-serve"/>       | :key: 在本地构建静态 VuePress 服务器         |
 |     [smooth-scroll](./plugins/smooth-scroll.md)     |   <NpmLink pkg="vuepress-plugin-smooth-scroll"/>   | :roller_coaster: 在 VuePress 中使用平滑滚动  |
 | [table-of-contents](./plugins/table-of-contents.md) | <NpmLink pkg="vuepress-plugin-table-of-contents"/> | :bookmark: 为 VuePress 提供目录组件          |
+|        [typescript](./plugins/typescript.md)        |    <NpmLink pkg="vuepress-plugin-typescript"/>     | :palm_tree: 在 VuePress 中支持 TypeScript    |
 |           [zooming](./plugins/zooming.md)           |      <NpmLink pkg="vuepress-plugin-zooming"/>      | :mag: 使 VuePress 中的图片支持缩放           |
 
 ## 工具
