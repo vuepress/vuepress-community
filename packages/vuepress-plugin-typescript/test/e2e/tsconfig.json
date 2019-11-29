@@ -1,0 +1,7 @@
+{
+  "extends": "../../../../tsconfig.json",
+  "compilerOptions": {
+    "experimentalDecorators": true
+  },
+  "include": ["docs/.vuepress/**/*.ts", "docs/.vuepress/**/*.vue"]
+}

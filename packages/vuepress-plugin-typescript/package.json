@@ -1,0 +1,36 @@
+{
+  "name": "vuepress-plugin-typescript",
+  "version": "0.0.0",
+  "description": "VuePress plugin for typescript",
+  "keywords": [
+    "plugin",
+    "typescript",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts,.vue src test"
+  },
+  "dependencies": {
+    "ts-loader": "^6.2.1"
+  },
+  "devDependencies": {
+    "vue-class-component": "^7.1.0",
+    "vue-property-decorator": "^8.3.0"
+  }
+}
