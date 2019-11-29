@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { readFileSync } from 'fs'
 import { createApp } from '@vuepress/core'
 
-describe('vuepress-plugin-container', () => {
+describe('vuepress-plugin-typescript', () => {
   const app = createApp({
     sourceDir: resolve(__dirname, 'docs'),
     dest: resolve(__dirname, 'dist'),

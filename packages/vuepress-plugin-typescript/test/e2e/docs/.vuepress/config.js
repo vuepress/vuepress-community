@@ -1,10 +1,7 @@
-const path = require('path')
 const CSSExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   plugins: ['vuepress-plugin-typescript'],
-
-  enhanceAppFiles: path.resolve(__dirname, './enhanceApp.ts'),
 
   chainWebpack(config) {
     // do not use chunk hash in js

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`vuepress-plugin-container enhance-app-ts.html 1`] = `
+exports[`vuepress-plugin-typescript should allow typescript in Layout.vue 1`] = `
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -11,7 +11,48 @@ exports[`vuepress-plugin-container enhance-app-ts.html 1`] = `
     <meta name="description" content="">
 
 
-    <!--before-resource-hints-->
+    <link rel="preload" href="/assets/css/0.styles.css" as="style">
+    <link rel="preload" href="/assets/js/styles.js" as="script">
+    <link rel="preload" href="/assets/js/app.js" as="script">
+    <link rel="preload" href="/assets/js/3.js" as="script">
+    <link rel="preload" href="/assets/js/4.js" as="script">
+    <link rel="prefetch" href="/assets/js/2.js">
+    <link rel="prefetch" href="/assets/js/5.js">
+    <link rel="prefetch" href="/assets/js/6.js">
+    <link rel="prefetch" href="/assets/js/7.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div>
+        <h1>Hello, TypeScript</h1>
+        <div class="content__default">
+          <p>readme</p>
+        </div>
+      </div>
+      <div class="global-ui"></div>
+    </div>
+    <script src="/assets/js/styles.js" defer></script>
+    <script src="/assets/js/3.js" defer></script>
+    <script src="/assets/js/4.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </body>
+
+</html>
+`;
+
+exports[`vuepress-plugin-typescript should allow typescript in enhanceApp & enhanceAppFiles 1`] = `
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="description" content="">
+
+
     <link rel="preload" href="/assets/css/0.styles.css" as="style">
     <link rel="preload" href="/assets/js/styles.js" as="script">
     <link rel="preload" href="/assets/js/app.js" as="script">
@@ -21,12 +62,10 @@ exports[`vuepress-plugin-container enhance-app-ts.html 1`] = `
     <link rel="prefetch" href="/assets/js/4.js">
     <link rel="prefetch" href="/assets/js/6.js">
     <link rel="prefetch" href="/assets/js/7.js">
-    <!--after-resource-hints-->
     <link rel="stylesheet" href="/assets/css/0.styles.css">
   </head>
 
   <body>
-    <!--before-vue-ssr-outlet-->
     <div id="app">
       <div>
         <h1>Hello, TypeScript</h1>
@@ -38,19 +77,16 @@ exports[`vuepress-plugin-container enhance-app-ts.html 1`] = `
       </div>
       <div class="global-ui"></div>
     </div>
-    <!--after-vue-ssr-outlet-->
-    <!--before-scripts-->
     <script src="/assets/js/styles.js" defer></script>
     <script src="/assets/js/3.js" defer></script>
     <script src="/assets/js/5.js" defer></script>
     <script src="/assets/js/app.js" defer></script>
-    <!--after-scripts-->
   </body>
 
 </html>
 `;
 
-exports[`vuepress-plugin-container index.html 1`] = `
+exports[`vuepress-plugin-typescript should allow typescript in markdown files 1`] = `
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -61,55 +97,6 @@ exports[`vuepress-plugin-container index.html 1`] = `
     <meta name="description" content="">
 
 
-    <!--before-resource-hints-->
-    <link rel="preload" href="/assets/css/0.styles.css" as="style">
-    <link rel="preload" href="/assets/js/styles.js" as="script">
-    <link rel="preload" href="/assets/js/app.js" as="script">
-    <link rel="preload" href="/assets/js/3.js" as="script">
-    <link rel="preload" href="/assets/js/4.js" as="script">
-    <link rel="prefetch" href="/assets/js/2.js">
-    <link rel="prefetch" href="/assets/js/5.js">
-    <link rel="prefetch" href="/assets/js/6.js">
-    <link rel="prefetch" href="/assets/js/7.js">
-    <!--after-resource-hints-->
-    <link rel="stylesheet" href="/assets/css/0.styles.css">
-  </head>
-
-  <body>
-    <!--before-vue-ssr-outlet-->
-    <div id="app">
-      <div>
-        <h1>Hello, TypeScript</h1>
-        <div class="content__default">
-          <p>readme</p>
-        </div>
-      </div>
-      <div class="global-ui"></div>
-    </div>
-    <!--after-vue-ssr-outlet-->
-    <!--before-scripts-->
-    <script src="/assets/js/styles.js" defer></script>
-    <script src="/assets/js/3.js" defer></script>
-    <script src="/assets/js/4.js" defer></script>
-    <script src="/assets/js/app.js" defer></script>
-    <!--after-scripts-->
-  </body>
-
-</html>
-`;
-
-exports[`vuepress-plugin-container ts-in-md.html 1`] = `
-<!DOCTYPE html>
-<html lang="en-US">
-
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>VuePress</title>
-    <meta name="description" content="">
-
-
-    <!--before-resource-hints-->
     <link rel="preload" href="/assets/css/0.styles.css" as="style">
     <link rel="preload" href="/assets/js/styles.js" as="script">
     <link rel="preload" href="/assets/js/app.js" as="script">
@@ -119,12 +106,10 @@ exports[`vuepress-plugin-container ts-in-md.html 1`] = `
     <link rel="prefetch" href="/assets/js/4.js">
     <link rel="prefetch" href="/assets/js/5.js">
     <link rel="prefetch" href="/assets/js/7.js">
-    <!--after-resource-hints-->
     <link rel="stylesheet" href="/assets/css/0.styles.css">
   </head>
 
   <body>
-    <!--before-vue-ssr-outlet-->
     <div id="app">
       <div>
         <h1>Hello, TypeScript</h1>
@@ -134,13 +119,10 @@ exports[`vuepress-plugin-container ts-in-md.html 1`] = `
       </div>
       <div class="global-ui"></div>
     </div>
-    <!--after-vue-ssr-outlet-->
-    <!--before-scripts-->
     <script src="/assets/js/styles.js" defer></script>
     <script src="/assets/js/3.js" defer></script>
     <script src="/assets/js/6.js" defer></script>
     <script src="/assets/js/app.js" defer></script>
-    <!--after-scripts-->
   </body>
 
 </html>
