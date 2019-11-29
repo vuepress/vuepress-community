@@ -28,7 +28,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
-    "lint": "eslint --ext .ts src"
+    "lint": "eslint --ext .ts src test"
   },
   "dependencies": {
     "markdown-it-container": "^2.0.0"
