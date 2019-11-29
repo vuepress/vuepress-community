@@ -1,6 +1,6 @@
 {
   "name": "vuepress-mergeable",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "VuePress tool to customize how a plugin merges its options",
   "keywords": [
     "plugin",

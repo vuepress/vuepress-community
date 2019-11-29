@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.5.0...vuepress-types@0.5.1) (2019-11-29)
+
+### Bug Fixes
+
+- **types:** rename to .d.ts ([4d1f123](https://github.com/vuepress/vuepress-community/commit/4d1f1239f4f2fd165f7c56836f8469eff55d3ba7))
+- **types:** return value of enhanceAppFiles ([3c0832c](https://github.com/vuepress/vuepress-community/commit/3c0832c290db33eb144bf3191da222a81f43c04b))
+
 # [0.5.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.4.0...vuepress-types@0.5.0) (2019-11-20)
 
 ### Features

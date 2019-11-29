@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-redirect",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "VuePress plugin to handle redirection",
   "keywords": [
     "i18n",
@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "@shigma/stringify-object": "^3.3.0",
-    "vuepress-plugin-dehydrate": "1.1.0"
+    "vuepress-plugin-dehydrate": "1.1.1"
   }
 }
