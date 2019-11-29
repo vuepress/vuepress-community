@@ -66,7 +66,7 @@ const enhanceApp: EnhanceApp = ({ router, siteData }) => {
       storage,
       base: '/',
       alternative() {
-        if (window && window.navigator) {
+        if (typeof window !== 'undefined' && window.navigator) {
           const langs = window.navigator.languages || [
             window.navigator.language,
           ]
