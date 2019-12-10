@@ -38,6 +38,8 @@ const TypescriptPlugin: Plugin<TypescriptPluginOptions> = (
    * - .md
    */
   chainWebpack(config): void {
+    config.resolve.extensions.add('.ts')
+
     config.module
       .rule('ts')
       .test(/\.ts$/)
