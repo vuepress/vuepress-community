@@ -8,7 +8,17 @@
 **Which package does this PR involve?** (check one)
 
 - [ ] root project
+- [ ] vuepress-plugin-clean-urls
+- [ ] vuepress-plugin-container
+- [ ] vuepress-plugin-dehydrate
+- [ ] vuepress-plugin-medium-zoom
+- [ ] vuepress-plugin-nprogress
+- [ ] vuepress-plugin-redirect
 - [ ] vuepress-plugin-smooth-scroll
+- [ ] vuepress-plugin-table-of-contents
+- [ ] vuepress-plugin-typescript
+- [ ] vuepress-plugin-zooming
+- [ ] vuepress-mergeable
 - [ ] vuepress-types
 
 **What kind of change does this PR introduce?** (check at least one)
