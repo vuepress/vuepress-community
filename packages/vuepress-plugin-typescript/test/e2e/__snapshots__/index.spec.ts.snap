@@ -72,7 +72,7 @@ exports[`vuepress-plugin-typescript should allow typescript in enhanceApp & enha
         <div class="content__default">
           <div>
             <h1>Test Component</h1>
-          </div>
+          </div> <span>test .ts file</span> <span>test index.ts file</span>
         </div>
       </div>
       <div class="global-ui"></div>

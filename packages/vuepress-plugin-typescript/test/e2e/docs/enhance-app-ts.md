@@ -1,1 +1,5 @@
-<Test/>
+<Test />
+
+<TestTsFile />
+
+<TestIndexTsFile />
