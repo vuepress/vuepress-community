@@ -20,6 +20,18 @@ export interface PluginGeneratedFile {
   content: string
 }
 
+export type EnhanceAppFilesGeneratedFile = PluginGeneratedFile
+
+export type ClientDynamicModulesGeneratedFile = PluginGeneratedFile & {
+  dirname?: string
+}
+
+export type PluginGeneratedFileTypes<T extends PluginGeneratedFile> =
+  | T
+  | T[]
+  | Promise<T>
+  | Promise<T[]>
+
 export interface PluginOptionAPI {
   name?: string
   plugins?: PluginConfig[]
@@ -36,8 +48,14 @@ export interface PluginOptionAPI {
   enhanceAppFiles?:
     | string
     | string[]
-    | (() => PluginGeneratedFile | PluginGeneratedFile[] | string | string[])
-  clientDynamicModules?: () => PluginGeneratedFile | PluginGeneratedFile[]
+    | (() =>
+        | PluginGeneratedFileTypes<EnhanceAppFilesGeneratedFile>
+        | string
+        | string[]
+      )
+  clientDynamicModules?: () => PluginGeneratedFileTypes<
+    ClientDynamicModulesGeneratedFile
+  >
   extendPageData?: (page: Page) => void | Promise<void>
   clientRootMixin?: string
   additionalPages?: PageOptions[] | Promise<PageOptions[]>
