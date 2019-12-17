@@ -1,6 +1,8 @@
 import { PluginConfig, SiteConfig, ThemeConfig } from './config'
 import { Markdown } from './markdown'
 import { Page, PageOptions } from './page'
+import { PluginAPI } from './plugin-api'
+import { ThemeAPI } from './theme-api'
 
 /**
  * @see https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/core/lib/node/App.js
@@ -35,12 +37,9 @@ export interface Context {
   siteConfig: SiteConfig
   themeConfig: ThemeConfig
   markdown: Markdown
-  // TODO
-  /* eslint-disable @typescript-eslint/no-explicit-any */
-  pluginAPI: any
-  themeAPI: any
+  pluginAPI: PluginAPI
+  themeAPI: ThemeAPI
   ClientComputedMixinConstructor: any
-  /* eslint-enable @typescript-eslint/no-explicit-any */
   ssrTemplate: string
   devTemplate: string
   globalLayout: string

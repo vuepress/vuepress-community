@@ -5,6 +5,7 @@ import { PluginConfig } from './config'
 import { Context } from './context'
 import { Markdown } from './markdown'
 import { Page, PageOptions } from './page'
+import { PluginAPI } from './plugin-api'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type Plugin<Options = any> = PluginOptionAPI | PluginFunction<Options>
@@ -12,7 +13,8 @@ export type Plugin<Options = any> = PluginOptionAPI | PluginFunction<Options>
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type PluginFunction<Options = any> = (
   pluginOptions: Options,
-  context: Context
+  context: Context,
+  pluginApi: PluginAPI
 ) => PluginOptionAPI
 
 export interface PluginGeneratedFile {
