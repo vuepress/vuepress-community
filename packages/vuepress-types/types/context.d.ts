@@ -1,3 +1,4 @@
+import { ClientComputedMixin } from './computed'
 import { PluginConfig, SiteConfig, ThemeConfig } from './config'
 import { Markdown } from './markdown'
 import { Page, PageOptions } from './page'
@@ -39,7 +40,7 @@ export interface Context {
   markdown: Markdown
   pluginAPI: PluginAPI
   themeAPI: ThemeAPI
-  ClientComputedMixinConstructor: any
+  ClientComputedMixinConstructor: new () => ClientComputedMixin
   ssrTemplate: string
   devTemplate: string
   globalLayout: string

@@ -1,4 +1,7 @@
+import { ClientComputedMixin } from './computed'
 import { Context } from './context'
+import { Markdown } from './markdown'
+import { OptionItem } from './plugin-api'
 
 /**
  * @see https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/core/lib/node/Page.js
@@ -33,19 +36,46 @@ export interface PageFrontmatter {
 // Page in context
 // ==================
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export type PageEnhancer<T = any> = OptionItem<T>[]
+
+export interface PageProcessOptions {
+  computed: ClientComputedMixin
+  markdown: Markdown
+  enhancers: PageEnhancer[]
+  preRender: {}
+}
+
+export interface PageHeader {
+  level: number
+  title: string
+  slug: string
+}
+
 export interface Page extends BasePage {
   readonly dirname: string
   readonly filename: string
   readonly slug: string
   readonly strippedFilename: string
   readonly date: string
+  headers: PageHeader[]
 
   _context: Context
-  _meta: Record<string, string>[]
-  _filePath: string
   _content: string
+  _computed: ClientComputedMixin
+  _extractHeaders: string[]
+  _filePath: string
+  _localePath: string
+  _meta: Record<string, string>[]
   _permalink: string
   _permalinkPattern: string
+  _strippedContent: string
+
+  process: (options: PageProcessOptions) => Promise<void>
+  stripFilename: (fileName: string) => string
+  toJson: () => string
+  buildPermalink: () => void
+  enhance: (enhancers: PageEnhancer[]) => Promise<void>
 }
 
 export interface PageOptions {
@@ -69,14 +99,8 @@ export interface PageConstructor {
 // ==================
 
 export type PageComputed = BasePage & {
-  headers: PageComputedHeader[]
+  headers: PageHeader[]
 
   // default theme
   lastUpdated?: string
-}
-
-export interface PageComputedHeader {
-  level: number
-  title: string
-  slug: string
 }
