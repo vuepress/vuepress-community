@@ -23,8 +23,8 @@ function vuepressMergeable<T>(
 
   const config = new Mergeable(mergeOptions).merge(defaultOptions)
 
-  return (options, context): PluginOptionAPI => {
-    return pluginFunction(config.merge(options).value(), context)
+  return (options, context, pluginApi): PluginOptionAPI => {
+    return pluginFunction(config.merge(options).value(), context, pluginApi)
   }
 }
 
