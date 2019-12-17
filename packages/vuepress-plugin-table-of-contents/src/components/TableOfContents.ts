@@ -1,12 +1,12 @@
 import Vue, { ComponentOptions, VNode } from 'vue'
-import { PageComputedHeader } from 'vuepress-types'
+import { PageHeader } from 'vuepress-types'
 
 interface TableOfContentsComponent extends Vue {
   includeLevel: number[]
   headers: TOFHeader[] | null
 }
 
-interface TOFHeader extends PageComputedHeader {
+interface TOFHeader extends PageHeader {
   children: TOFHeader[] | null
 }
 
@@ -28,7 +28,7 @@ const TableOfContents: ComponentOptions<Vue> = {
         const maxLevel: number = this.includeLevel[1]
 
         const processHeaders = (
-          headers: PageComputedHeader[],
+          headers: PageHeader[],
           rootLevel = minLevel
         ): TOFHeader[] => {
           const result: TOFHeader[] = []
