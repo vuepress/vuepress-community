@@ -1,7 +1,3 @@
-/**
- * @jest-environment node
- */
-
 import { resolve } from 'path'
 import { readFileSync } from 'fs'
 import { createApp } from '@vuepress/core'

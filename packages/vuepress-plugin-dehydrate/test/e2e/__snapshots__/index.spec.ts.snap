@@ -43,9 +43,9 @@ exports[`vuepress-plugin-dehydrate index.html 1`] = `
     <link rel="preload" href="/assets/js/styles.js" as="script">
     <link rel="preload" href="/assets/js/app.js" as="script">
     <link rel="preload" href="/assets/js/3.js" as="script">
-    <link rel="preload" href="/assets/js/5.js" as="script">
+    <link rel="preload" href="/assets/js/4.js" as="script">
     <link rel="prefetch" href="/assets/js/2.js">
-    <link rel="prefetch" href="/assets/js/4.js">
+    <link rel="prefetch" href="/assets/js/5.js">
     <link rel="prefetch" href="/assets/js/6.js">
     <link rel="stylesheet" href="/assets/css/0.styles.css">
   </head>
@@ -59,7 +59,7 @@ exports[`vuepress-plugin-dehydrate index.html 1`] = `
     </div>
     <script src="/assets/js/styles.js" defer></script>
     <script src="/assets/js/3.js" defer></script>
-    <script src="/assets/js/5.js" defer></script>
+    <script src="/assets/js/4.js" defer></script>
     <script src="/assets/js/app.js" defer></script>
   </body>
 
