@@ -29,5 +29,8 @@
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
     "lint": "eslint --ext .ts src"
+  },
+  "devDependencies": {
+    "@vuepress/core": "^1.2.0"
   }
 }

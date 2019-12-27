@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`vuepress-plugin-named-chunks custom.html 1`] = `
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="description" content="">
+
+
+    <link rel="preload" href="/assets/css/0.styles.css" as="style">
+    <link rel="preload" href="/assets/js/styles.js" as="script">
+    <link rel="preload" href="/assets/js/app.js" as="script">
+    <link rel="preload" href="/assets/js/layout-Custom.js" as="script">
+    <link rel="preload" href="/assets/js/page-Custom.js" as="script">
+    <link rel="prefetch" href="/assets/js/7.js">
+    <link rel="prefetch" href="/assets/js/layout-Layout.js">
+    <link rel="prefetch" href="/assets/js/layout-NotFound.js">
+    <link rel="prefetch" href="/assets/js/page-8daa1a0e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="content__default">
+        <p>Custom</p>
+      </div>
+      <div class="global-ui"></div>
+    </div>
+    <script src="/assets/js/styles.js" defer></script>
+    <script src="/assets/js/layout-Custom.js" defer></script>
+    <script src="/assets/js/page-Custom.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </body>
+
+</html>
+`;
+
+exports[`vuepress-plugin-named-chunks index.html 1`] = `
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePress</title>
+    <meta name="description" content="">
+
+
+    <link rel="preload" href="/assets/css/0.styles.css" as="style">
+    <link rel="preload" href="/assets/js/styles.js" as="script">
+    <link rel="preload" href="/assets/js/app.js" as="script">
+    <link rel="preload" href="/assets/js/layout-Layout.js" as="script">
+    <link rel="preload" href="/assets/js/page-8daa1a0e.js" as="script">
+    <link rel="prefetch" href="/assets/js/7.js">
+    <link rel="prefetch" href="/assets/js/layout-Custom.js">
+    <link rel="prefetch" href="/assets/js/layout-NotFound.js">
+    <link rel="prefetch" href="/assets/js/page-Custom.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.css">
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="content__default">
+        <p>readme</p>
+      </div>
+      <div class="global-ui"></div>
+    </div>
+    <script src="/assets/js/styles.js" defer></script>
+    <script src="/assets/js/layout-Layout.js" defer></script>
+    <script src="/assets/js/page-8daa1a0e.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </body>
+
+</html>
+`;
