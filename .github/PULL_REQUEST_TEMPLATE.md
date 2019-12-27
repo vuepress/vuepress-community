@@ -12,6 +12,7 @@
 - [ ] vuepress-plugin-container
 - [ ] vuepress-plugin-dehydrate
 - [ ] vuepress-plugin-medium-zoom
+- [ ] vuepress-plugin-named-chunks
 - [ ] vuepress-plugin-nprogress
 - [ ] vuepress-plugin-redirect
 - [ ] vuepress-plugin-smooth-scroll
