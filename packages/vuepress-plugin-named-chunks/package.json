@@ -1,0 +1,33 @@
+{
+  "name": "vuepress-plugin-named-chunks",
+  "version": "1.0.2",
+  "description": "VuePress plugin to track chunks",
+  "keywords": [
+    "chunks",
+    "plugin",
+    "vuepress",
+    "webpack"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "contributors": [
+    "meteorlxy <meteor.lxy@foxmail.com>"
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src"
+  }
+}
