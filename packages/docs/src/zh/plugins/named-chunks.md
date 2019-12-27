@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-named-chunks <GitHubLink repo="vuepress/vuepress-plugin-named-chunks"/>
+# vuepress-plugin-named-chunks <GitHubLink repo="vuepress/vuepress-community"/>
 
 为你的 VuePress 站点生成命名 chunks 。
 
@@ -40,10 +40,10 @@ module.exports = {
 
 ### layoutChunkName
 
-- **类型:** `((layout: LayoutComponent) => string) | false`
+- **类型:** `((layout: ResolvedComponent) => string) | false`
 - **默认值:** `false`
 
-用于从 `LayoutComponent` 对象生成模块名称的函数。
+用于从 `ResolvedComponent` 对象生成模块名称的函数。
 
 ## API
 
@@ -56,5 +56,5 @@ module.exports = {
 
 ### 布局组件的模块名称
 
-1. `context.themeAPI.layoutComponentMap` 是由 `LayoutComponent` 对象构成的键值对。
-2. `layout.chunkName` 是对应的布局组件的模块名称。
+1. `context.themeAPI.layoutComponentMap` 是由 `ResolvedComponent` 对象构成的键值对。
+2. `layout._chunkName` 是对应的布局组件的模块名称。

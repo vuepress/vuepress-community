@@ -62,6 +62,7 @@ module.exports = context => ({
         selector: '.theme-default-content img:not(.no-medium-zoom)',
       },
     ],
+    ['named-chunks'],
     [
       'redirect',
       {

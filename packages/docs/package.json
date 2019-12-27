@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "private": true,
   "scripts": {
-    "build": "vuepress build src --dest dist",
+    "build": "vuepress build src --temp .temp --dest dist",
     "dev": "vuepress dev src --temp .temp",
     "lint": "eslint --ext .js,.vue src/.vuepress",
     "serve": "vuepress serve src --dest dist"
@@ -21,6 +21,7 @@
     "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-medium-zoom": "1.1.8",
+    "vuepress-plugin-named-chunks": "1.0.2",
     "vuepress-plugin-redirect": "1.2.1",
     "vuepress-plugin-serve": "^1.1.0",
     "vuepress-plugin-smooth-scroll": "0.0.9",

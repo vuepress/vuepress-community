@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-named-chunks <GitHubLink repo="vuepress/vuepress-plugin-named-chunks"/>
+# vuepress-plugin-named-chunks <GitHubLink repo="vuepress/vuepress-community"/>
 
 Generate named chunks for your VuePress site.
 
@@ -40,10 +40,10 @@ A function that generates chunk name from `Page` object.
 
 ### layoutChunkName
 
-- **type:** `((layout: LayoutComponent) => string) | false`
+- **type:** `((layout: ResolvedComponent) => string) | false`
 - **default:** `false`
 
-A function that generates chunk name from `LayoutComponent` object.
+A function that generates chunk name from `ResolvedComponent` object.
 
 ## API
 
@@ -56,5 +56,5 @@ This plugin will inject some properties into [context API](https://vuepress.vuej
 
 ### chunk name of a layout component
 
-1. `context.themeAPI.layoutComponentMap` is a map of `LayoutComponent` objects.
-2. `layout.chunkName` is the chunk name of the layout component.
+1. `context.themeAPI.layoutComponentMap` is a map of `ResolvedComponent` objects.
+2. `layout._chunkName` is the chunk name of the layout component.
