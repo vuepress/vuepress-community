@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.5.1...vuepress-types@0.6.0) (2019-12-27)
+
+### Bug Fixes
+
+- **types:** allow async functions for plugin generated files api ([a269298](https://github.com/vuepress/vuepress-community/commit/a269298992d77a306980c8156660951ea6300116))
+
+### Features
+
+- **types:** add plugin-api and theme-api ([7b420f5](https://github.com/vuepress/vuepress-community/commit/7b420f505a64cdcbe4ca0266ec7e621903a09171))
+- **types:** refine page and computed ([1d88245](https://github.com/vuepress/vuepress-community/commit/1d88245bf442cde2323374a96f220a2f8c05ab5a))
+
 ## [0.5.1](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.5.0...vuepress-types@0.5.1) (2019-11-29)
 
 ### Bug Fixes

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/vuepress/vuepress-community/compare/vuepress-mergeable@1.1.2...vuepress-mergeable@1.1.3) (2019-12-27)
+
+### Bug Fixes
+
+- **mergeable:** add plugin-api param ([a96ef12](https://github.com/vuepress/vuepress-community/commit/a96ef12a69d48412c6adf624b86f615e954707fb))
+
 ## [1.1.2](https://github.com/vuepress/vuepress-community/compare/vuepress-mergeable@1.1.1...vuepress-mergeable@1.1.2) (2019-11-29)
 
 **Note:** Version bump only for package vuepress-mergeable
