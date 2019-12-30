@@ -12,7 +12,7 @@
     "lint": "lerna run lint --stream",
     "release": "yarn lint && yarn build && yarn test && lerna publish",
     "serve": "yarn workspace docs serve",
-    "test": "jest"
+    "test": "jest --runInBand"
   },
   "husky": {
     "hooks": {
