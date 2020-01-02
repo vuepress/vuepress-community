@@ -105,3 +105,48 @@ declare module '*.vue' {
 ```
 
 :::
+
+## 类型定义
+
+你可能会遇到 VuePress 的类型检查问题，比如无法找到 `this.$themeConfig` 的类型定义。
+
+如果你想获取到正确的类型定义，你可以尝试使用 `vuepress-types` 。
+
+```sh
+npm i -D vuepress-type
+```
+
+然后，选择任一方式使用它：
+
+- 手动在 `.vue` 文件中引入：
+
+```vue
+<script lang="ts">
+import 'vuepress-types'
+import Vue from 'vue'
+import Component from 'vue-class-component'
+
+@Component
+export default class App extends Vue {
+  get vuepressThemeConfig() {
+    return this.$themeConfig
+  }
+}
+</script>
+```
+
+- 把它添加到 `tsconfig.json` 的 `compilerOptions.types` 中：
+
+> 参考 [`tsconfig.json` 文档](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types)
+
+```json
+{
+  "compilerOptions": {
+    "types": ["vuepress-types"]
+  }
+}
+```
+
+::: tip
+`vuepress-types` 是一个 VuePress 类型定义包，它还处于测试阶段。如果你在使用时发现任何问题，欢迎提出 Issue 。
+:::

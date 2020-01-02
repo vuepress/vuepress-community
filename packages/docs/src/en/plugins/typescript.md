@@ -105,3 +105,48 @@ declare module '*.vue' {
 ```
 
 :::
+
+## Types Definitions
+
+You might meet some problems about the types of VuePress, e.g. missing the types definition of `this.$themeConfig`.
+
+If you want to get the right types definition, you can try to use `vuepress-types`.
+
+```sh
+npm i -D vuepress-type
+```
+
+Then, you can choose one of the following approaches to use it:
+
+- Import it manually in your `.vue` files:
+
+```vue
+<script lang="ts">
+import 'vuepress-types'
+import Vue from 'vue'
+import Component from 'vue-class-component'
+
+@Component
+export default class App extends Vue {
+  get vuepressThemeConfig() {
+    return this.$themeConfig
+  }
+}
+</script>
+```
+
+- Add it to the `compilerOptions.types` of your `tsconfig.json`:
+
+> See [docs of `tsconfig.json`](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#types-typeroots-and-types)
+
+```json
+{
+  "compilerOptions": {
+    "types": ["vuepress-types"]
+  }
+}
+```
+
+::: tip
+`vuepress-types` is an experimental package for VuePress types definitions. Feel free to open an issue if you find it does not work as expected.
+:::
