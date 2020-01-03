@@ -113,7 +113,7 @@ declare module '*.vue' {
 如果你想获取到正确的类型定义，你可以尝试使用 `vuepress-types` 。
 
 ```sh
-npm i -D vuepress-type
+npm i -D vuepress-types
 ```
 
 然后，选择任一方式使用它：
