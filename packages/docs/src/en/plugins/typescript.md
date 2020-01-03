@@ -113,7 +113,7 @@ You might meet some problems about the types of VuePress, e.g. missing the types
 If you want to get the right types definition, you can try to use `vuepress-types`.
 
 ```sh
-npm i -D vuepress-type
+npm i -D vuepress-types
 ```
 
 Then, you can choose one of the following approaches to use it:
