@@ -39,14 +39,14 @@ export interface PluginOptionAPI {
   plugins?: PluginConfig[]
   // TODO: ask vuepress to upgrade webpack-chain to >=5.2.0
   // https://github.com/neutrinojs/webpack-chain/blob/master/CHANGELOG.md#v520
-  chainWebpack?: (config, isServer: boolean) => void
+  chainWebpack?: (config: any, isServer: boolean) => void
   define?: Record<string, string> | (() => Record<string, string>)
   alias?: Record<string, string>
   beforeDevServer?: (app: Application, server: WebpackDevServer) => void
   afterDevServer?: (app: Application, server: WebpackDevServer) => void
   extendMarkdown?: (md: Markdown) => void
   // TODO: ask markdown-it-chain to add types definitions
-  chainMarkdown?: (config) => void
+  chainMarkdown?: (config: any) => void
   enhanceAppFiles?:
     | string
     | string[]
