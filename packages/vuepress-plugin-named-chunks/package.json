@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-named-chunks",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "VuePress plugin to track chunks",
   "keywords": [
     "chunks",
