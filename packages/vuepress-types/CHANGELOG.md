@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.6.1...vuepress-types@0.7.0) (2020-01-13)
+
+### Bug Fixes
+
+- **types:** add missing isServer in enhance-app (close [#12](https://github.com/vuepress/vuepress-community/issues/12)) ([3153d09](https://github.com/vuepress/vuepress-community/commit/3153d097c2612a52f005ef9d676eebb62c1f9c92))
+
+### Features
+
+- **types:** add theme-option-api (close [#11](https://github.com/vuepress/vuepress-community/issues/11)) ([9d6eb11](https://github.com/vuepress/vuepress-community/commit/9d6eb110a2b571e092f77b7aa0d6491625f8377c))
+- **types:** refine context-options and site-config ([c20b7b4](https://github.com/vuepress/vuepress-community/commit/c20b7b4176603bcc5ff8a3a1883d649c2b1e1610))
+
 ## [0.6.1](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.6.0...vuepress-types@0.6.1) (2020-01-03)
 
 ### Bug Fixes
