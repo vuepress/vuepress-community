@@ -8,4 +8,5 @@ export type EnhanceApp = (options: {
   options: Record<string, any>
   router: VueRouter & { options: RouterOptions }
   siteData: SiteData
+  isServer: boolean
 }) => void
