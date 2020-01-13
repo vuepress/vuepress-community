@@ -70,11 +70,30 @@ export interface Context {
 }
 
 export interface ContextOptions {
+  // ===========
+  // cli options
+  // ===========
+
+  // dirs
   sourceDir?: string
   dest?: string
   temp?: string
-  siteConfig?: SiteConfig
+
+  // listen
+  host?: string
+  port?: number
+
+  // other
+  clearScreen?: string
+  open?: boolean
+
+  // ===========
+  // api options
+  // ===========
+
+  theme?: string
   plugins?: PluginConfig[]
+  siteConfig?: SiteConfig
 }
 
 export interface SiteData extends SiteConfig {

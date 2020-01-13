@@ -10,9 +10,15 @@ declare module 'vue/types/vue' {
     $localeConfig: LocaleConfig
     $localePath: string
     $page: PageComputed
-    $site: SiteConfig & {
+
+    // context.getSiteData()
+    $site: Pick<
+      SiteConfig,
+      'title' | 'description' | 'base' | 'themeConfig' | 'locales'
+    > & {
       pages: PageComputed[]
     }
+
     $siteTitle: string
     $themeConfig: ThemeConfig
     $themeLocaleConfig: LocaleConfig
