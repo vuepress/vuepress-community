@@ -98,7 +98,7 @@ export interface PageConstructor {
 // Page in computed
 // ==================
 
-export type PageComputed = BasePage & {
+export interface PageComputed extends BasePage {
   headers: PageHeader[]
 
   // default theme
