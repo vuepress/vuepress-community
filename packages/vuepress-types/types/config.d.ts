@@ -73,8 +73,29 @@ export interface SiteConfig {
   markdown?: MarkdownConfig
 
   // Build Pipeline
-  postcss?: any
-  stylus?: any
+  // https://github.com/postcss/postcss-loader#options
+  postcss?: {
+    exec?: boolean
+    parser?: string | object
+    syntax?: string | object
+    stringifier?: string | object
+    config?: {
+      path?: string
+      context?: object
+      ctx?: object
+    }
+    ident?: string
+    plugins?: any[] | Function
+    sourceMap?: 'inline' | boolean
+  }
+  // https://github.com/shama/stylus-loader#readme
+  stylus?: {
+    use?: any[]
+    import?: string[]
+    preferPathResolver?: 'webpack' | string
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    [key: string]: any
+  }
   scss?: any
   sass?: any
   less?: any
