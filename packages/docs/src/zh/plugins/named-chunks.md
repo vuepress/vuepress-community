@@ -20,11 +20,13 @@ npm install vuepress-plugin-named-chunks
 // .vuepress/config.js
 module.exports = {
   plugins: [
-    'named-chunks',
-    {
-      pageChunkName: page => 'page' + page.key.slice(1),
-      layoutChunkName: layout => 'layout-' + layout.componentName,
-    },
+    [
+      'named-chunks',
+      {
+        pageChunkName: page => 'page' + page.key.slice(1),
+        layoutChunkName: layout => 'layout-' + layout.componentName,
+      },
+    ],
   ],
 }
 ```
