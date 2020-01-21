@@ -1,4 +1,4 @@
-import { LocaleConfig, SiteConfig, ThemeConfig } from './config'
+import { LocaleConfig, ThemeConfig } from './config'
 import { SiteData } from './context'
 import { Page, PageComputed, PageFrontmatter } from './page'
 
@@ -12,13 +12,7 @@ declare module 'vue/types/vue' {
     $page: PageComputed
 
     // context.getSiteData()
-    $site: Pick<
-      SiteConfig,
-      'title' | 'description' | 'base' | 'themeConfig' | 'locales'
-    > & {
-      pages: PageComputed[]
-    }
-
+    $site: SiteData
     $siteTitle: string
     $themeConfig: ThemeConfig
     $themeLocaleConfig: LocaleConfig

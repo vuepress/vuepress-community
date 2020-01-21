@@ -18,6 +18,8 @@ export interface BasePage {
   path: string
   regularPath: string
   relativePath: string
+  headers?: PageHeader[]
+  excerpt?: string
 }
 
 export interface PageFrontmatter {
@@ -58,7 +60,6 @@ export interface Page extends BasePage {
   readonly slug: string
   readonly strippedFilename: string
   readonly date: string
-  headers: PageHeader[]
 
   _context: Context
   _content: string
@@ -73,7 +74,7 @@ export interface Page extends BasePage {
 
   process: (options: PageProcessOptions) => Promise<void>
   stripFilename: (fileName: string) => string
-  toJson: () => string
+  toJson: () => PageComputed
   buildPermalink: () => void
   enhance: (enhancers: PageEnhancer[]) => Promise<void>
 }
@@ -99,8 +100,6 @@ export interface PageConstructor {
 // ==================
 
 export interface PageComputed extends BasePage {
-  headers: PageHeader[]
-
   // default theme
   lastUpdated?: string
 }

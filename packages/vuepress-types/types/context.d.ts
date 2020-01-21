@@ -1,7 +1,7 @@
 import { ClientComputedMixin } from './computed'
 import { PluginConfig, SiteConfig, ThemeConfig } from './config'
 import { Markdown } from './markdown'
-import { Page, PageOptions } from './page'
+import { Page, PageOptions, PageComputed } from './page'
 import { PluginAPI } from './plugin-api'
 import { ThemeAPI } from './theme-api'
 
@@ -96,6 +96,16 @@ export interface ContextOptions {
   siteConfig?: SiteConfig
 }
 
-export interface SiteData extends SiteConfig {
-  pages: string[]
-}
+/**
+ * Context.getSiteData()
+ */
+export type SiteData =
+  // `locales` directly comes from SiteConfig
+  Pick<SiteConfig, 'locales'> &
+    // `title`, `description`, `base`, `themeConfig` are always defined
+    Required<
+      Pick<SiteConfig, 'title' | 'description' | 'base' | 'themeConfig'>
+    > & {
+      // page.toJson()
+      pages: PageComputed[]
+    }
