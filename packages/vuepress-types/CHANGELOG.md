@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.7.0...vuepress-types@0.8.0) (2020-01-21)
+
+### Bug Fixes
+
+- **types:** refine site-data and page (close [#15](https://github.com/vuepress/vuepress-community/issues/15)) ([1d2ed9f](https://github.com/vuepress/vuepress-community/commit/1d2ed9fe366d7b17b2e3c5334825b6c0dd1742f1))
+
+### Features
+
+- **types:** postcss and stylus config ([ba9892e](https://github.com/vuepress/vuepress-community/commit/ba9892e0a06f0eef95e84496f286475c4ce1762a))
+
 # [0.7.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.6.1...vuepress-types@0.7.0) (2020-01-13)
 
 ### Bug Fixes
