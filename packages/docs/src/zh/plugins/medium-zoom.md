@@ -11,7 +11,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-medium-zoom
+npm install -D vuepress-plugin-medium-zoom
 ```
 
 ## 使用

@@ -19,7 +19,7 @@ This plugin will always work on your dev server, but VuePress **does not have th
 ## Installation
 
 ```sh
-npm install vuepress-plugin-clean-urls
+npm install -D vuepress-plugin-clean-urls
 ```
 
 ## Usage

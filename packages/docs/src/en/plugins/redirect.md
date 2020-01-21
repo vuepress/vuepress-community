@@ -27,7 +27,7 @@ export default {
 ## Installation
 
 ```sh
-npm install vuepress-plugin-redirect
+npm install -D vuepress-plugin-redirect
 ```
 
 ## Usage

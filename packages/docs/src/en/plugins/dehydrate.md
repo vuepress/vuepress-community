@@ -9,7 +9,7 @@ Dehydrate generated HTML files of your VuePress site.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-dehydrate
+npm install -D vuepress-plugin-dehydrate
 ```
 
 ## Usage

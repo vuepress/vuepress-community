@@ -11,7 +11,7 @@ VuePress 使用 [dynamic import](https://webpack.js.org/guides/code-splitting/#d
 ## 安装
 
 ```sh
-npm install vuepress-plugin-named-chunks
+npm install -D vuepress-plugin-named-chunks
 ```
 
 ## 使用

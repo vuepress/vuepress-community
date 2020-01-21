@@ -9,7 +9,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-git-log
+npm install -D vuepress-plugin-git-log
 ```
 
 ## 使用

@@ -7,7 +7,7 @@ sidebarDepth: 3
 ## Installation
 
 ```sh
-npm install vuepress-plugin-typescript typescript
+npm install -D vuepress-plugin-typescript typescript
 ```
 
 ## Usage

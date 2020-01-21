@@ -11,7 +11,7 @@ copyright:
 ## 安装
 
 ```sh
-npm install vuepress-plugin-copyright
+npm install -D vuepress-plugin-copyright
 ```
 
 ## 使用

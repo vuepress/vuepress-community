@@ -11,7 +11,7 @@ Support TeX syntax in markdown files of your VuePress site.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-mathjax
+npm install -D vuepress-plugin-mathjax
 ```
 
 ## Usage

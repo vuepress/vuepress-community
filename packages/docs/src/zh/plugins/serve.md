@@ -9,7 +9,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-serve
+npm install -D vuepress-plugin-serve
 ```
 
 ## 使用

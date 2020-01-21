@@ -9,7 +9,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-table-of-contents
+npm install -D vuepress-plugin-table-of-contents
 ```
 
 ## 使用

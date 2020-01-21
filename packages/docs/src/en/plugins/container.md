@@ -9,7 +9,7 @@ Register markdown containers in your VuePress site.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-container
+npm install -D vuepress-plugin-container
 ```
 
 ## Usage

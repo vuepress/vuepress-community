@@ -9,7 +9,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-container
+npm install -D vuepress-plugin-container
 ```
 
 ## 使用

@@ -9,7 +9,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-migrate
+npm install -D vuepress-plugin-migrate
 ```
 
 ## 使用

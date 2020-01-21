@@ -9,7 +9,7 @@ Add table-of-contents component for your VuePress site.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-table-of-contents
+npm install -D vuepress-plugin-table-of-contents
 ```
 
 ## Usage

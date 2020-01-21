@@ -9,7 +9,7 @@ Serve generated files of your VuePress site locally.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-serve
+npm install -D vuepress-plugin-serve
 ```
 
 ## Usage

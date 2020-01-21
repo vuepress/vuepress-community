@@ -11,7 +11,7 @@ This plugin will show progress bar on the top when navigating to another page.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-nprogress
+npm install -D vuepress-plugin-nprogress
 ```
 
 ## Usage

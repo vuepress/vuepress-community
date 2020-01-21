@@ -9,7 +9,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-dehydrate
+npm install -D vuepress-plugin-dehydrate
 ```
 
 ## 使用

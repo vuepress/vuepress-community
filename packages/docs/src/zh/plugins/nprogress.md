@@ -11,7 +11,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-nprogress
+npm install -D vuepress-plugin-nprogress
 ```
 
 ## 使用

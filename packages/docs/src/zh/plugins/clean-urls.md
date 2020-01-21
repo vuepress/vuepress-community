@@ -19,7 +19,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-clean-urls
+npm install -D vuepress-plugin-clean-urls
 ```
 
 ## 使用

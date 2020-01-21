@@ -9,7 +9,7 @@ Migrate a website to VuePress.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-migrate
+npm install -D vuepress-plugin-migrate
 ```
 
 ## Usage

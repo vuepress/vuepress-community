@@ -7,7 +7,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-typescript typescript
+npm install -D vuepress-plugin-typescript typescript
 ```
 
 ## 使用

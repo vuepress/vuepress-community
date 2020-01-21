@@ -9,7 +9,7 @@ Integrates git logs into your page of VuePress site.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-git-log
+npm install -D vuepress-plugin-git-log
 ```
 
 ## Usage

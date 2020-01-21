@@ -29,7 +29,7 @@ sidebarDepth: 3
 ## 安装
 
 ```sh
-npm install vuepress-plugin-smooth-scroll
+npm install -D vuepress-plugin-smooth-scroll
 ```
 
 ## 使用

@@ -11,7 +11,7 @@ mathjax:
 ## 安装
 
 ```sh
-npm install vuepress-plugin-mathjax
+npm install -D vuepress-plugin-mathjax
 ```
 
 ## 使用

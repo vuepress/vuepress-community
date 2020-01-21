@@ -11,7 +11,7 @@ VuePress uses [dynamic import](https://webpack.js.org/guides/code-splitting/#dyn
 ## Installation
 
 ```sh
-npm install vuepress-plugin-named-chunks
+npm install -D vuepress-plugin-named-chunks
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ module.exports = {
       {
         pageChunkName: page => 'page' + page.key.slice(1),
         layoutChunkName: layout => 'layout-' + layout.componentName,
-      }
+      },
     ],
   ],
 }

@@ -9,7 +9,7 @@ Make scrolling smooth in your VuePress site.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-smooth-scroll
+npm install -D vuepress-plugin-smooth-scroll
 ```
 
 ## Usage

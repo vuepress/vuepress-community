@@ -11,7 +11,7 @@ Handles copy behaviors in your VuePress site.
 ## Installation
 
 ```sh
-npm install vuepress-plugin-copyright
+npm install -D vuepress-plugin-copyright
 ```
 
 ## Usage
