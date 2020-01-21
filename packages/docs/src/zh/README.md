@@ -32,3 +32,4 @@ sidebar: false
 |                    名称                    |                版本                 | 介绍                                              |
 | :----------------------------------------: | :---------------------------------: | :------------------------------------------------ |
 | [vuepress-mergeable](./tools/mergeable.md) | <NpmLink pkg="vuepress-mergeable"/> | :crystal_ball: 定制化 VuePress 插件选项合并的方式 |
+|     [vuepress-types](./tools/types.md)     |   <NpmLink pkg="vuepress-types"/>   | :palm_tree: VuePress 的类型定义                   |

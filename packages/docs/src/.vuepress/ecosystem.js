@@ -18,7 +18,7 @@ const ecosystem = {
     'zooming',
   ],
   themes: [],
-  tools: ['mergeable'],
+  tools: ['mergeable', 'types'],
 }
 
 module.exports = ecosystem

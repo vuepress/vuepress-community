@@ -32,3 +32,4 @@ Community supported ecosystem for VuePress.
 |                    Name                    |               Version               | Description                                                       |
 | :----------------------------------------: | :---------------------------------: | :---------------------------------------------------------------- |
 | [vuepress-mergeable](./tools/mergeable.md) | <NpmLink pkg="vuepress-mergeable"/> | :crystal_ball: Customize how a VuePress plugin merges its options |
+|     [vuepress-types](./tools/types.md)     |   <NpmLink pkg="vuepress-types"/>   | :palm_tree: Types definitions for VuePress                        |
