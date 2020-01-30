@@ -143,13 +143,17 @@ This is part of `config.js` of this project:
 
 ```js
 module.exports = {
-  plugins: {
-    mathjax: {
-      macros: {
-        '\\Z': '\\mathbb{Z}'
-      }
-    }
-  }
+  plugins: [
+    [
+      'vuepress-plugin-mathjax',
+      {
+        target: 'svg',
+        macros: {
+          '\\Z': '\\mathbb{Z}'
+        },
+      },
+    ],
+  ]
 }
 ```
 
