@@ -17,6 +17,9 @@ declare module 'vue/types/vue' {
     $themeConfig: ThemeConfig
     $themeLocaleConfig: LocaleConfig
     $title: string
+
+    // injected in client/app.js
+    $withBase: (path: string) => string
   }
 }
 
