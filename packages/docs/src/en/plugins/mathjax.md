@@ -143,13 +143,16 @@ This is part of `config.js` of this project:
 
 ```js
 module.exports = {
-  plugins: {
-    mathjax: {
-      macros: {
-        '\\Z': '\\mathbb{Z}'
-      }
-    }
-  }
+  plugins: [
+    [
+      'vuepress-plugin-mathjax',
+      {
+        macros: {
+          '\\Z': '\\mathbb{Z}',
+        },
+      },
+    ],
+  ],
 }
 ```
 
@@ -177,6 +180,7 @@ sidebarDepth: 3
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 ---
+
 ```
 
 **Input:**

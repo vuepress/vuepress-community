@@ -143,13 +143,16 @@ markdown 文件中的 TeX 语法将遵循 [pandoc](http://pandoc.org/MANUAL.html
 
 ```js
 module.exports = {
-  plugins: {
-    mathjax: {
-      macros: {
-        '\\Z': '\\mathbb{Z}'
-      }
-    }
-  }
+  plugins: [
+    [
+      'vuepress-plugin-mathjax',
+      {
+        macros: {
+          '\\Z': '\\mathbb{Z}',
+        },
+      },
+    ],
+  ],
 }
 ```
 
@@ -177,6 +180,7 @@ sidebarDepth: 3
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 ---
+
 ```
 
 **输入:**
