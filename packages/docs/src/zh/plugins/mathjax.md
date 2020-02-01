@@ -148,11 +148,11 @@ module.exports = {
       'vuepress-plugin-mathjax',
       {
         macros: {
-          '\\Z': '\\mathbb{Z}'
+          '\\Z': '\\mathbb{Z}',
         },
       },
     ],
-  ]
+  ],
 }
 ```
 
@@ -180,6 +180,7 @@ sidebarDepth: 3
 mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 ---
+
 ```
 
 **输入:**
