@@ -1,0 +1,43 @@
+{
+  "name": "vuepress-plugin-serve",
+  "version": "1.1.0",
+  "description": "VuePress plugin to serve generated files",
+  "keywords": [
+    "server",
+    "plugin",
+    "static",
+    "build",
+    "vuepress"
+  ],
+  "homepage": "https://github.com/vuepress",
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-community/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuepress/vuepress-community.git"
+  },
+  "license": "MIT",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "contributors": [
+    "meteorlxy <meteor.lxy@foxmail.com>"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rimraf lib && tsc -p tsconfig.json",
+    "lint": "eslint --ext .ts src"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "opn": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/serve-static": "^1.13.3"
+  }
+}
