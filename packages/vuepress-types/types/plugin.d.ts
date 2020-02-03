@@ -53,8 +53,7 @@ export interface PluginOptionAPI {
     | (() =>
         | PluginGeneratedFileTypes<EnhanceAppFilesGeneratedFile>
         | string
-        | string[]
-      )
+        | string[])
   clientDynamicModules?: () => PluginGeneratedFileTypes<
     ClientDynamicModulesGeneratedFile
   >
