@@ -3,6 +3,8 @@ import { readFileSync } from 'fs'
 import { createApp } from '@vuepress/core'
 
 describe('vuepress-plugin-typescript', () => {
+  process.env.NODE_ENV = 'production'
+
   const app = createApp({
     sourceDir: resolve(__dirname, 'docs'),
     dest: resolve(__dirname, 'dist'),
