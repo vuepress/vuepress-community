@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-serve <GitHubLink repo="vuepress/vuepress-plugin-serve"/>
+# vuepress-plugin-serve <GitHubLink repo="vuepress/vuepress-community"/>
 
 Serve generated files of your VuePress site locally.
 
@@ -43,7 +43,7 @@ module.exports = {
 - **type:** `string`
 - **default:** `'serve'`
 
-Vuepress-plugin-serve will add a vuepress command. This option can be used to specify the command name.
+vuepress-plugin-serve will add a vuepress command. This option can be used to specify the command name.
 
 ### host
 
@@ -64,7 +64,7 @@ Specify the port to use for the server.
 - **type:** `string`
 - **default:** `'404.html'`
 
-Path for "404 not found" page.
+Path for "404 not found" page (relative to `dest` path).
 
 ### staticOptions
 
@@ -75,44 +75,17 @@ Options for [serve-static](https://github.com/expressjs/serve-static#servestatic
 
 ### beforeServer
 
-- **type:** `(app, server) => void`
+- **type:** `(app, server) => void | Promise<void>`
 - **default:** `undefined`
 
 Executed before the server accepts client information. Similar to VuePress's [beforeDevServer](https://vuepress.vuejs.org/en/plugin/option-api.html#beforedevserver) option.
 
 ### afterServer
 
-- **type:** `async (app, server) => void`
+- **type:** `async (app, server) => void | Promise<void>`
 - **default:** `undefined`
 
 Executed after the server accepts client information. Similar to VuePress's [afterDevServer](https://vuepress.vuejs.org/en/plugin/option-api.html#afterdevserver) option.
-
-### chainWebpack
-
-- **type:** `(config: Config) => void`
-- **default:** `undefined`
-
-This hook will be called when the server is being built.
-
-See [chainWebpack](https://vuepress.vuejs.org/plugin/option-api.html#chainwebpack).
-
-### define
-
-- **type:** `Record<string, string> | (() => Record<string, string>)`
-- **default:** `{}`
-
-This hook will be called when the server is being built.
-
-See [define](https://vuepress.vuejs.org/plugin/option-api.html#define).
-
-### alias
-
-- **type:** `Record<string, string> | (() => Record<string, string>)`
-- **default:** `{}`
-
-This hook will be called when the server is being built.
-
-See [alias](https://vuepress.vuejs.org/plugin/option-api.html#alias).
 
 ## CLI
 

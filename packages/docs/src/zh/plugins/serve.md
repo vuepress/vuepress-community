@@ -2,7 +2,7 @@
 sidebarDepth: 3
 ---
 
-# vuepress-plugin-serve <GitHubLink repo="vuepress/vuepress-plugin-serve"/>
+# vuepress-plugin-serve <GitHubLink repo="vuepress/vuepress-community"/>
 
 在本地使用静态服务器，测试 VuePress 的 build 结果。
 
@@ -64,7 +64,7 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 - **类型:** `string`
 - **默认值:** `'404.html'`
 
-用来存放 404 页面的地址。
+404 页面的路径（相对于 `dest` 目录）。
 
 ### staticOptions
 
@@ -75,44 +75,17 @@ vuepress-plugin-serve 会增加一个 vuepress 命令，这个选项可用于自
 
 ### beforeServer
 
-- **类型:** `(app, server) => void`
+- **类型:** `(app, server) => void | Promise<void>`
 - **默认值:** `undefined`
 
 在服务器接受客户端信息之前执行。类似于 VuePress 的 [beforeDevServer](https://vuepress.vuejs.org/zh/plugin/option-api.html#beforedevserver) 选项。
 
 ### afterServer
 
-- **类型:** `async (app, server) => void`
+- **类型:** `async (app, server) => void | Promise<void>`
 - **默认值:** `undefined`
 
 在服务器接受客户端信息之后执行。类似于 VuePress 的 [afterDevServer](https://vuepress.vuejs.org/zh/plugin/option-api.html#afterdevserver) 选项。
-
-### chainWebpack
-
-- **type:** `(config: Config) => void`
-- **default:** `undefined`
-
-这个钩子会在服务器构建时调用。
-
-参见 [chainWebpack](https://vuepress.vuejs.org/plugin/option-api.html#chainwebpack)。
-
-### define
-
-- **type:** `Record<string, string> | (() => Record<string, string>)`
-- **default:** `{}`
-
-这个钩子会在服务器构建时调用。
-
-参见 [define](https://vuepress.vuejs.org/plugin/option-api.html#define)。
-
-### alias
-
-- **type:** `Record<string, string> | (() => Record<string, string>)`
-- **default:** `{}`
-
-这个钩子会在服务器构建时调用。
-
-参见 [alias](https://vuepress.vuejs.org/plugin/option-api.html#alias)。
 
 ## CLI
 
