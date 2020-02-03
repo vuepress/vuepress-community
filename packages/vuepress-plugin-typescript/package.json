@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "VuePress plugin for typescript",
   "keywords": [
     "plugin",
@@ -17,11 +17,11 @@
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
     "lint": "eslint --ext .ts,.vue src test"

@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-serve",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "VuePress plugin to serve generated files",
   "keywords": [
     "server",

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/vuepress/vuepress-community/compare/docs@1.0.7...docs@1.0.8) (2020-02-03)
+
+**Note:** Version bump only for package docs
+
 ## [1.0.7](https://github.com/vuepress/vuepress-community/compare/docs@1.0.6...docs@1.0.7) (2020-01-03)
 
 **Note:** Version bump only for package docs

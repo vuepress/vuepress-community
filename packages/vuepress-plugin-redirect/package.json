@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-redirect",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "VuePress plugin to handle redirection",
   "keywords": [
     "i18n",
@@ -22,17 +22,17 @@
   "contributors": [
     "meteorlxy <meteor.lxy@foxmail.com>"
   ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
     "lint": "eslint --ext .ts src"
   },
   "dependencies": {
     "@shigma/stringify-object": "^3.3.0",
-    "vuepress-plugin-dehydrate": "1.1.2"
+    "vuepress-plugin-dehydrate": "1.1.3"
   }
 }

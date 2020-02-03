@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.1.1...vuepress-plugin-typescript@0.1.2) (2020-02-03)
+
+**Note:** Version bump only for package vuepress-plugin-typescript
+
 ## [0.1.1](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.1.0...vuepress-plugin-typescript@0.1.1) (2019-12-10)
 
 ### Bug Fixes

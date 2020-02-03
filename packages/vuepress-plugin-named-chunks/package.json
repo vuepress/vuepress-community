@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-named-chunks",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "VuePress plugin to track chunks",
   "keywords": [
     "chunks",
@@ -21,11 +21,11 @@
   "contributors": [
     "meteorlxy <meteor.lxy@foxmail.com>"
   ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
     "lint": "eslint --ext .ts src"

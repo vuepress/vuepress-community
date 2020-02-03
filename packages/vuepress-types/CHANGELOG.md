@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.1](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.8.0...vuepress-types@0.8.1) (2020-02-03)
+
+### Bug Fixes
+
+- **types:** add withBase global helper (close [#17](https://github.com/vuepress/vuepress-community/issues/17)) ([3c1a682](https://github.com/vuepress/vuepress-community/commit/3c1a6827ea856dbbc9c9f3b7149817e33b655e1b))
+
 # [0.8.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.7.0...vuepress-types@0.8.0) (2020-01-21)
 
 ### Bug Fixes
