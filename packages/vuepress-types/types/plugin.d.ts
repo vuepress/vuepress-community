@@ -1,6 +1,7 @@
 import CAC from 'cac/types/CAC'
 import { Application } from 'express'
 import WebpackDevServer from 'webpack-dev-server'
+import Config from 'webpack-chain'
 import { PluginConfig } from './config'
 import { Context } from './context'
 import { Markdown } from './markdown'
@@ -37,9 +38,7 @@ export type PluginGeneratedFileTypes<T extends PluginGeneratedFile> =
 export interface PluginOptionAPI {
   name?: string
   plugins?: PluginConfig[]
-  // TODO: ask vuepress to upgrade webpack-chain to >=5.2.0
-  // https://github.com/neutrinojs/webpack-chain/blob/master/CHANGELOG.md#v520
-  chainWebpack?: (config: any, isServer: boolean) => void
+  chainWebpack?: (config: Config, isServer: boolean) => void
   define?: Record<string, string> | (() => Record<string, string>)
   alias?: Record<string, string>
   beforeDevServer?: (app: Application, server: WebpackDevServer) => void
