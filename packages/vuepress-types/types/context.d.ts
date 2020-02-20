@@ -44,6 +44,9 @@ export interface Context {
   ssrTemplate: string
   devTemplate: string
   globalLayout: string
+  // cache related properties, added in resolveCacheLoaderOptions()
+  cacheDirectory: string
+  cacheIdentifier: string
 
   // private
   resolveConfigAndInitialize: () => void
@@ -86,6 +89,7 @@ export interface ContextOptions {
   // other
   clearScreen?: string
   open?: boolean
+  cache?: boolean
 
   // ===========
   // api options
