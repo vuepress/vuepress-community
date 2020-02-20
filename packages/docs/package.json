@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": true,
   "scripts": {
     "build": "vuepress build src --temp .temp --dest dist",
@@ -23,10 +23,10 @@
     "vuepress-plugin-medium-zoom": "1.1.8",
     "vuepress-plugin-named-chunks": "1.1.2",
     "vuepress-plugin-redirect": "1.2.3",
-    "vuepress-plugin-serve": "2.0.0",
+    "vuepress-plugin-serve": "2.0.1",
     "vuepress-plugin-smooth-scroll": "0.0.9",
     "vuepress-plugin-table-of-contents": "1.1.5",
-    "vuepress-plugin-typescript": "0.1.2",
+    "vuepress-plugin-typescript": "0.2.0",
     "vuepress-plugin-zooming": "1.1.7"
   }
 }

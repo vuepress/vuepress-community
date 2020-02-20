@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.8.1...vuepress-types@0.9.0) (2020-02-20)
+
+### Features
+
+- **types:** add cache properties of context ([bc65fc7](https://github.com/vuepress/vuepress-community/commit/bc65fc7cab8ae5ae79b4115c9aef757e01588a08))
+- **types:** add types of webpack-chain config ([b65756e](https://github.com/vuepress/vuepress-community/commit/b65756e90d09f34e266a99b2b31328d25d0ec55b))
+
 ## [0.8.1](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.8.0...vuepress-types@0.8.1) (2020-02-03)
 
 ### Bug Fixes

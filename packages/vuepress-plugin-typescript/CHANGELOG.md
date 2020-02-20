@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.1.2...vuepress-plugin-typescript@0.2.0) (2020-02-20)
+
+### Features
+
+- **plugin-typescript:** prepend cache-loader before ts-loader ([00d32f2](https://github.com/vuepress/vuepress-community/commit/00d32f2efcc515ad4ee265648f8ede8af537ba4a))
+
 ## [0.1.2](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.1.1...vuepress-plugin-typescript@0.1.2) (2020-02-03)
 
 **Note:** Version bump only for package vuepress-plugin-typescript
