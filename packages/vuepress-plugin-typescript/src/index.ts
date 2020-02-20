@@ -37,12 +37,22 @@ const TypescriptPlugin: Plugin<TypescriptPluginOptions> = (
    * - .vue
    * - .md
    */
-  chainWebpack(config): void {
+  chainWebpack(config, isServer): void {
+    const { cacheDirectory, cacheIdentifier } = context
+    const finalCacheIdentifier = cacheIdentifier + `isServer:${isServer}`
+
     config.resolve.extensions.add('.ts')
 
     config.module
       .rule('ts')
       .test(/\.ts$/)
+      .use('cache-loader')
+      .loader('cache-loader')
+      .options({
+        cacheDirectory,
+        cacheIdentifier: finalCacheIdentifier,
+      })
+      .end()
       .use('ts-loader')
       .loader('ts-loader')
       .options({
@@ -52,6 +62,7 @@ const TypescriptPlugin: Plugin<TypescriptPluginOptions> = (
         },
         ...tsLoaderOptions,
       })
+      .end()
   },
 })
 
