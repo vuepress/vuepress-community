@@ -17,10 +17,6 @@
     <img src="https://badgen.net/travis/vuepress/vuepress-community?label=docs&icon=travis">
   </a>
 
-  <a href="https://lgtm.com/projects/g/vuepress/vuepress-community" target="_blank">
-    <img src="https://badgen.net/lgtm/grade/g/vuepress/vuepress-community?icon=lgtm">
-  </a>
-
   <a href="https://github.com/vuepress/vuepress-community/commits" target="_blank">
     <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community?icon=github">
   </a>

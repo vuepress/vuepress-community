@@ -105,7 +105,7 @@ const ServePlugin: Plugin<ServePluginOptions> = (
         // fallback to base url
         app.get(/.*/, (req, res) => {
           if (req.path.startsWith(context.base)) {
-            res.sendFile(notFoundPath) // lgtm [js/missing-rate-limiting]
+            res.sendFile(notFoundPath)
           } else {
             res.redirect(context.base)
           }
