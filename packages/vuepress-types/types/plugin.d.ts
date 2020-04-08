@@ -39,7 +39,7 @@ export interface PluginOptionAPI {
   name?: string
   plugins?: PluginConfig[]
   chainWebpack?: (config: Config, isServer: boolean) => void
-  define?: Record<string, string> | (() => Record<string, string>)
+  define?: Record<string, unknown> | (() => Record<string, unknown>)
   alias?: Record<string, string>
   beforeDevServer?: (app: Application, server: WebpackDevServer) => void
   afterDevServer?: (app: Application, server: WebpackDevServer) => void
