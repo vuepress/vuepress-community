@@ -117,14 +117,14 @@ VuePress 在绝大部分情况下都能正常工作，但是如果页面在在 V
       <div class="content default"><p>readme</p></div>
       <div class="global-ui"></div>
     </div>
-    <script src="/assets/js/app.3fe70f2e.js" defer></script
-    ><script src="/assets/js/3.db027a4f.js" defer></script
-    ><script src="/assets/js/5.222ba868.js" defer></script>
+    <script src="/assets/js/app.3fe70f2e.js" defer></script>
+    <script src="/assets/js/3.db027a4f.js" defer></script>
+    <script src="/assets/js/5.222ba868.js" defer></script>
   </body>
 </html>
 ```
 
-当我们使用 [`noSSR`](./config.md#nossr) 模式时，会生成这样的 HTML：
+当我们使用 [`noSSR`](#nossr) 模式时，会生成这样的 HTML：
 
 ```html
 <!DOCTYPE html>
@@ -145,14 +145,14 @@ VuePress 在绝大部分情况下都能正常工作，但是如果页面在在 V
   </head>
   <body>
     <div id="app"><!-- 注意这里 --></div>
-    <script src="/assets/js/app.3fe70f2e.js" defer></script
-    ><script src="/assets/js/3.db027a4f.js" defer></script
-    ><script src="/assets/js/5.222ba868.js" defer></script>
+    <script src="/assets/js/app.3fe70f2e.js" defer></script>
+    <script src="/assets/js/3.db027a4f.js" defer></script>
+    <script src="/assets/js/5.222ba868.js" defer></script>
   </body>
 </html>
 ```
 
-当我们使用 [`noScript`](./config.md#noscript) 模式时，会生成这样的 HTML：
+当我们使用 [`noScript`](#noscript) 模式时，会生成这样的 HTML：
 
 ```html
 <!DOCTYPE html>

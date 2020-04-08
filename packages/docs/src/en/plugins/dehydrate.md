@@ -117,14 +117,14 @@ A normally generated HTML file will be like this:
       <div class="content default"><p>readme</p></div>
       <div class="global-ui"></div>
     </div>
-    <script src="/assets/js/app.3fe70f2e.js" defer></script
-    ><script src="/assets/js/3.db027a4f.js" defer></script
-    ><script src="/assets/js/5.222ba868.js" defer></script>
+    <script src="/assets/js/app.3fe70f2e.js" defer></script>
+    <script src="/assets/js/3.db027a4f.js" defer></script>
+    <script src="/assets/js/5.222ba868.js" defer></script>
   </body>
 </html>
 ```
 
-When we use the [`noSSR`](./config.md#nossr) mode, VuePress will generate such HTML:
+When we use the [`noSSR`](#nossr) mode, VuePress will generate such HTML:
 
 ```html
 <!DOCTYPE html>
@@ -145,14 +145,14 @@ When we use the [`noSSR`](./config.md#nossr) mode, VuePress will generate such H
   </head>
   <body>
     <div id="app"><!-- see here --></div>
-    <script src="/assets/js/app.3fe70f2e.js" defer></script
-    ><script src="/assets/js/3.db027a4f.js" defer></script
-    ><script src="/assets/js/5.222ba868.js" defer></script>
+    <script src="/assets/js/app.3fe70f2e.js" defer></script>
+    <script src="/assets/js/3.db027a4f.js" defer></script>
+    <script src="/assets/js/5.222ba868.js" defer></script>
   </body>
 </html>
 ```
 
-When we use the [`noScript`](./config.md#noscript) mode, VuePress will generate such HTML:
+When we use the [`noScript`](#noscript) mode, VuePress will generate such HTML:
 
 ```html
 <!DOCTYPE html>
