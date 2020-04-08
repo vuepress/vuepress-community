@@ -67,42 +67,52 @@ const ContainerPlugin: Plugin<ContainerPluginOptions> = ({
       renderAfter = (): string => '</div>\n'
     }
 
+    // token info stack
+    const infoStack: string[] = []
+
     render = (tokens, index, opts, env): string => {
       const token = tokens[index]
 
-      // ===============================
-      // resolve info (title)
-      // ===============================
-      let info = token.info
-        .trim()
-        .slice(type.length)
-        .trim()
+      if (token.nesting === 1) {
+        // `before` tag
 
-      if (!info && defaultTitle) {
-        if (typeof defaultTitle === 'string') {
-          // const
-          info = defaultTitle
-        } else if (typeof defaultTitle === 'object') {
-          // locale
-          let { relativePath = '' } = env
-          relativePath = ensureLeadingSlash(relativePath)
-          const locale = Object.keys(defaultTitle)
-            .filter(locale => locale !== '/')
-            .find(locale => relativePath.startsWith(locale))
-          if (locale) {
-            info = defaultTitle[locale]
-          } else {
-            info = defaultTitle['/'] || ''
+        // resolve info (title)
+        let info = token.info
+          .trim()
+          .slice(type.length)
+          .trim()
+
+        if (!info && defaultTitle) {
+          if (typeof defaultTitle === 'string') {
+            // const
+            info = defaultTitle
+          } else if (typeof defaultTitle === 'object') {
+            // locale
+            let { relativePath = '' } = env
+            relativePath = ensureLeadingSlash(relativePath)
+            const locale = Object.keys(defaultTitle)
+              .filter(locale => locale !== '/')
+              .find(locale => relativePath.startsWith(locale))
+            if (locale) {
+              info = defaultTitle[locale]
+            } else {
+              info = defaultTitle['/'] || ''
+            }
           }
         }
-      }
 
-      // ===============================
-      // render
-      // ===============================
-      if (token.nesting === 1) {
+        // push the info to stack
+        infoStack.push(info)
+
+        // render
         return renderBefore(info)
       } else {
+        // `after` tag
+
+        // pop the info from stack
+        const info = infoStack.pop() || ''
+
+        // render
         return renderAfter(info)
       }
     }
