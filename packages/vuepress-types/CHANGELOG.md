@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.1](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.9.0...vuepress-types@0.9.1) (2020-04-08)
+
+### Bug Fixes
+
+- **types:** do not require all props in page options (close [#25](https://github.com/vuepress/vuepress-community/issues/25)) ([5e8649c](https://github.com/vuepress/vuepress-community/commit/5e8649c2ee70ea0088d8eef8e8f5eb70eb1ecc9c))
+- **types:** do not restrict define fields to string (close [#26](https://github.com/vuepress/vuepress-community/issues/26)) ([cd0cf23](https://github.com/vuepress/vuepress-community/commit/cd0cf23b9126de866669f5449f6d5c18d07ae750))
+
 # [0.9.0](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.8.1...vuepress-types@0.9.0) (2020-02-20)
 
 ### Features
