@@ -25,7 +25,7 @@ const TableOfContents: ComponentOptions<Vue> = {
     headers(this: TableOfContentsComponent): TOFHeader[] | null {
       if (this.$page && this.$page.headers) {
         const minLevel: number = this.includeLevel[0]
-        const maxLevel: number = this.includeLevel[1]
+        const maxLevel: number = this.includeLevel[this.includeLevel.length - 1]
 
         const processHeaders = (
           headers: PageHeader[],
