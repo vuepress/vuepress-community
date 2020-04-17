@@ -58,7 +58,9 @@ export interface PluginOptionAPI {
   >
   extendPageData?: (page: Page) => void | Promise<void>
   clientRootMixin?: string
-  additionalPages?: Partial<PageOptions>[] | Promise<Partial<PageOptions>[]>
+  additionalPages?:
+    | Partial<PageOptions>[]
+    | (() => Promise<Partial<PageOptions>[]>)
   globalUIComponents?: string | string[]
   extendCli?: (cli: CAC) => void
   multiple?: boolean
