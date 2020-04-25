@@ -70,9 +70,14 @@ const enhanceApp: EnhanceApp = ({ router, siteData }) => {
           const langs = window.navigator.languages || [
             window.navigator.language,
           ]
-
-          const locale = locales.find(({ lang }) => langs.includes(lang))
-
+          let locale = locales.find(({ lang }) => langs.includes(lang))
+          if (!locale) {
+            // no exact match found, ignore region-specific dialects as a fallback
+            const shortLangs = langs.map(language => language.substring(0, 2))
+            locale = locales.find(({ lang }) =>
+              shortLangs.includes(lang.substring(0, 2))
+            )
+          }
           if (locale) {
             return locale.key
           }
