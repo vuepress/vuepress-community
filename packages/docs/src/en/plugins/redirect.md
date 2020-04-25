@@ -4,7 +4,10 @@ sidebarDepth: 3
 
 # vuepress-plugin-redirect <GitHubLink repo="vuepress/vuepress-community"/>
 
-VuePress has a built-in [i18n system](https://vuepress.vuejs.org/en/guide/i18n.html), but you must provide a default language, otherwise you will only get a 404 if you try to access `/` directly. However, providing a default language often means a less friendly project structure (because the files in the default language are one level lower than others), and we sometimes want our website to keep `/` for a more intelligent redirection (e.g. determines that the language used by the user based on `navigator.language` and automatically redirects to the corresponding page). `vuepress-plugin-redirect` is such a plugin that handles automatic redirections. Of course, its capacity is not limited to automatic redirecting of the language, because you can redirect any page to its subpages via a custom redirector.
+VuePress has a built-in [i18n system](https://vuepress.vuejs.org/en/guide/i18n.html), but you must provide a default language, otherwise you will only get a 404 if you try to access `/` directly. However, providing a default language often means a less friendly project structure (because the files in the default language are one level lower than others), and we sometimes want our website to keep `/` for a more intelligent redirection (e.g. determines that the language used by the user based on `navigator.language` and automatically redirects to the corresponding page). If you rely on the automatic language redirect, you must place all languages in their individual directories and cannot use a default language in the `/` directory.
+
+
+`vuepress-plugin-redirect` is a plugin that handles automatic redirections as described above. Of course, its capacity is not limited to automatic redirecting of the language: You can redirect any page to its subpages via a custom redirector.
 
 <ClientOnly>
   <p>For example, when you type <a :href="location"><code>{{ location }}</code></a> in address bar, the page will be redirected automatically here.</p>
@@ -42,6 +45,7 @@ module.exports = {
         // provide i18n redirection
         // it will automatically redirect `/foo/bar/` to `/:locale/foo/bar/` if exists
         locales: true,
+        fuzzyLocales: true,
       },
     ],
   ],
@@ -84,6 +88,13 @@ module.exports = {
 - **default:** `false`
 
 Whether to provide i18n redirection.
+
+### fuzzyLocales
+
+- **type:** `boolean`
+- **default:** `false`
+
+Whether to ignore region-specific codes as a fallback. For example, if the user has their browser configured to prefer `de-AT` (German from Austria) but you only have set up a locale for `de-DE` (German from Germany), this setting will still forward users of Austrian German to the `de-DE` locale. In short, it only compares the first part of the language code and ignores the region.
 
 ### redirectors
 

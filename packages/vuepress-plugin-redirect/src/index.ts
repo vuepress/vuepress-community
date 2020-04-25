@@ -23,6 +23,7 @@ export interface LocalesRedirector {
 
 export interface RedirectPluginOptions {
   locales?: true | LocalesRedirector
+  fuzzyLocales?: boolean
   redirectors?: Redirector[]
 }
 
