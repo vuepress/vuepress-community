@@ -31,7 +31,7 @@ This plugin simply does two things:
 
 - [Reference](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
 - [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo#Browser_Compatibility)
-- [smoothscroll-ployfill](https://github.com/iamdustan/smoothscroll)
+- [smoothscroll-polyfill](https://github.com/iamdustan/smoothscroll)
 
 2. Add `scroll-behavior: smooth;` to the `<html>` element
 
