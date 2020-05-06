@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.2](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.9.1...vuepress-types@0.9.2) (2020-05-06)
+
+### Bug Fixes
+
+- **types:** allow async function for `additionalPages` ([#30](https://github.com/vuepress/vuepress-community/issues/30)) ([cb02ef2](https://github.com/vuepress/vuepress-community/commit/cb02ef2d53a52e4bce4a6ff98409455ad8eeb1d2))
+
 ## [0.9.1](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.9.0...vuepress-types@0.9.1) (2020-04-08)
 
 ### Bug Fixes
