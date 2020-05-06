@@ -21,7 +21,13 @@ module.exports = {
 }
 ```
 
-This plugin will register a `<TOC />` component for you, which will render the table-of-contents of current page.
+This plugin will register a `<TOC />` component for you, which will render the table-of-contents of current page. You can use it in your markdown and vue files.
+
+```md
+<!-- README.md / Component.vue -->
+
+<TOC />
+```
 
 ## Configs
 
@@ -31,6 +37,17 @@ This plugin will register a `<TOC />` component for you, which will render the t
 - **default:** `'TOC'`
 
 Name of the table-of-contents component.
+
+## Component Props
+
+### includeLevel
+
+- **type:** `[number, number]`
+- **default:** `[2, 3]`
+
+The level of title to be included in `<TOC />` component.
+
+For example, `[2, 4]` means 2 <= x <= 4.
 
 ## Demo
 
@@ -43,6 +60,16 @@ Name of the table-of-contents component.
 ### Output
 
 <TOC />
+
+### Input
+
+```md
+<TOC :include-level="[2, 2]" />
+```
+
+### Output
+
+<TOC :include-level="[2, 2]" />
 
 ## Differences from VuePress markdown toc syntax
 
