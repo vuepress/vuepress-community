@@ -51,23 +51,23 @@ For example, `[2, 4]` means 2 <= x <= 4.
 
 ## Demo
 
-### Input
+**Input**
 
 ```md
 <TOC />
 ```
 
-### Output
+**Output**
 
 <TOC />
 
-### Input
+**Input**
 
 ```md
 <TOC :include-level="[2, 2]" />
 ```
 
-### Output
+**Output**
 
 <TOC :include-level="[2, 2]" />
 
