@@ -21,7 +21,13 @@ module.exports = {
 }
 ```
 
-该组件会为你注册一个 `<TOC />` 组件，该组件展示你当前页面文章的目录。
+该组件会为你注册一个 `<TOC />` 组件，该组件展示你当前页面文章的目录，你可以在 Markdown 文件和 Vue 文件中使用它。
+
+```md
+<!-- README.md / Component.vue -->
+
+<TOC />
+```
 
 ## 配置项
 
@@ -31,6 +37,17 @@ module.exports = {
 - **默认值:** `'TOC'`
 
 组件的名称。
+
+## 组件 Props
+
+### includeLevel
+
+- **类型:** `[number, number]`
+- **默认值:** `[2, 3]`
+
+`<TOC />` 组件包含的标题范围。
+
+例如，`[2, 4]` 代表 2 <= x <= 4 。
 
 ## 演示
 
@@ -43,6 +60,16 @@ module.exports = {
 ### 输出
 
 <TOC />
+
+### 输入
+
+```md
+<TOC :include-level="[2, 2]" />
+```
+
+### 输出
+
+<TOC :include-level="[2, 2]" />
 
 ## 与 VuePress markdown 目录语法的区别
 
