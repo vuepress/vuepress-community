@@ -89,3 +89,19 @@ module.exports = {
 ### git.contributors
 
 文章的贡献者列表，即所有修改过文章的用户列表。
+
+## 演示
+
+**输入**
+
+```md
+- 本页面的作者：{{ $page.git.author }}
+- 本页面的贡献者：{{ $page.git.contributors.join(', ') }}
+- 本页面的最后一次提交：{{ $page.git.commits[0].fullHash }}
+```
+
+**输出**
+
+- 本页面的作者：{{ $page.git.author }}
+- 本页面的贡献者：{{ $page.git.contributors.join(', ') }}
+- 本页面的最后一次提交：{{ $page.git.commits[0].fullHash }}

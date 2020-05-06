@@ -89,3 +89,19 @@ A list of all the commits in chronological order.
 ### git.contributors
 
 A list of contributors to all users who have modified the article.
+
+## Demo
+
+**Input**
+
+```md
+- Author of this page: {{ $page.git.author }}
+- Contributors of this page: {{ $page.git.contributors.join(', ') }}
+- Last commit of this page: {{ $page.git.commits[0].fullHash }}
+```
+
+**Output**
+
+- Author of this page: {{ $page.git.author }}
+- Contributors of this page: {{ $page.git.contributors.join(', ') }}
+- Last commit of this page: {{ $page.git.commits[0].fullHash }}
