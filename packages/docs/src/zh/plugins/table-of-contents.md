@@ -51,23 +51,23 @@ module.exports = {
 
 ## 演示
 
-### 输入
+**输入**
 
 ```md
 <TOC />
 ```
 
-### 输出
+**输出**
 
 <TOC />
 
-### 输入
+**输入**
 
 ```md
 <TOC :include-level="[2, 2]" />
 ```
 
-### 输出
+**输出**
 
 <TOC :include-level="[2, 2]" />
 
