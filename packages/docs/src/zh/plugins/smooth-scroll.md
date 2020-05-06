@@ -11,7 +11,7 @@ sidebarDepth: 3
 1. 在 [scrollBehavior](https://router.vuejs.org/api/#scrollbehavior) 中使用 `window.scrollTo({ behavior: 'smooth' })`
    - [参考](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
    - [浏览器兼容性](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo#Browser_Compatibility)
-   - [smoothscroll-ployfill](https://github.com/iamdustan/smoothscroll)
+   - [smoothscroll-polyfill](https://github.com/iamdustan/smoothscroll)
 2. 将样式 `scroll-behavior: smooth;` 加入 `<html>` 元素
    - [参考](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior)
    - [浏览器兼容性](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior#Browser_compatibility)
