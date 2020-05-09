@@ -8,10 +8,9 @@ exports[`vuepress-plugin-named-chunks custom.html 1`] = `
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>VuePress</title>
+    <meta name="generator" content="VuePress 1.4.1">
+
     <meta name="description" content="">
-    <meta name="generator" content="VuePress 1.3.0">
-
-
     <link rel="preload" href="/assets/css/0.styles.css" as="style">
     <link rel="preload" href="/assets/js/styles.js" as="script">
     <link rel="preload" href="/assets/js/app.js" as="script">
@@ -48,10 +47,9 @@ exports[`vuepress-plugin-named-chunks index.html 1`] = `
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>VuePress</title>
+    <meta name="generator" content="VuePress 1.4.1">
+
     <meta name="description" content="">
-    <meta name="generator" content="VuePress 1.3.0">
-
-
     <link rel="preload" href="/assets/css/0.styles.css" as="style">
     <link rel="preload" href="/assets/js/styles.js" as="script">
     <link rel="preload" href="/assets/js/app.js" as="script">
