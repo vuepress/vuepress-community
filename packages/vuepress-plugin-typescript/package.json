@@ -27,7 +27,7 @@
     "lint": "eslint --ext .ts,.vue src test"
   },
   "dependencies": {
-    "ts-loader": "^6.2.1"
+    "ts-loader": "^7.0.3"
   },
   "devDependencies": {
     "vue-class-component": "^7.1.0",
