@@ -1,6 +1,6 @@
 const ecosystem = require('./ecosystem')
 
-module.exports = context => ({
+module.exports = (context) => ({
   head: [
     ['link', { rel: 'icon', href: '/logo/600x600.png' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -33,7 +33,7 @@ module.exports = context => ({
       'container',
       {
         type: 'theorem',
-        before: info => `<div class="theorem"><p class="title">${info}</p>`,
+        before: (info) => `<div class="theorem"><p class="title">${info}</p>`,
         after: '</div>',
       },
     ],
@@ -132,11 +132,11 @@ const getSidebar = (plugins, themes, tools) => [
   {
     title: plugins,
     collapsable: true,
-    children: ecosystem.plugins.map(name => `plugins/${name}`),
+    children: ecosystem.plugins.map((name) => `plugins/${name}`),
   },
   {
     title: tools,
     collapsable: true,
-    children: ecosystem.tools.map(name => `tools/${name}`),
+    children: ecosystem.tools.map((name) => `tools/${name}`),
   },
 ]

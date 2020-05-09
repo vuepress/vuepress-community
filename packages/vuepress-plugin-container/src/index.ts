@@ -77,10 +77,7 @@ const ContainerPlugin: Plugin<ContainerPluginOptions> = ({
         // `before` tag
 
         // resolve info (title)
-        let info = token.info
-          .trim()
-          .slice(type.length)
-          .trim()
+        let info = token.info.trim().slice(type.length).trim()
 
         if (!info && defaultTitle) {
           if (typeof defaultTitle === 'string') {
@@ -91,8 +88,8 @@ const ContainerPlugin: Plugin<ContainerPluginOptions> = ({
             let { relativePath = '' } = env
             relativePath = ensureLeadingSlash(relativePath)
             const locale = Object.keys(defaultTitle)
-              .filter(locale => locale !== '/')
-              .find(locale => relativePath.startsWith(locale))
+              .filter((locale) => locale !== '/')
+              .find((locale) => relativePath.startsWith(locale))
             if (locale) {
               info = defaultTitle[locale]
             } else {

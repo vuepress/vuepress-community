@@ -104,7 +104,7 @@ const DehydratePlugin: Plugin<DehydratePluginOptions> = (
     pages = pages.slice()
 
     // fully disable ssr
-    globby.sync(noSSR, globbyOptions).forEach(file => {
+    globby.sync(noSSR, globbyOptions).forEach((file) => {
       const index = pages.indexOf(file)
       if (index < 0) return
       pages.splice(index, 1)
@@ -112,7 +112,7 @@ const DehydratePlugin: Plugin<DehydratePluginOptions> = (
     })
 
     // fully disable script
-    globby.sync(noScript, globbyOptions).forEach(file => {
+    globby.sync(noScript, globbyOptions).forEach((file) => {
       const index = pages.indexOf(file)
       if (index < 0) return
       pages.splice(index, 1)
@@ -126,7 +126,7 @@ const DehydratePlugin: Plugin<DehydratePluginOptions> = (
     })
 
     // clean up unhandled files
-    pages.forEach(file => replaceFileContent(file, ...defaultReplacers))
+    pages.forEach((file) => replaceFileContent(file, ...defaultReplacers))
   },
 })
 
