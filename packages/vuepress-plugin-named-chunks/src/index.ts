@@ -20,7 +20,7 @@ declare module 'vuepress-types/types/theme-api' {
 const NamedChunksPlugin: Plugin<NamedChunksPluginOptions> = (
   {
     pageChunkName = ({ key }): string => 'page' + key.slice(1),
-    layoutChunkName = false,
+    layoutChunkName,
   },
   context
 ) => {
@@ -38,7 +38,7 @@ const NamedChunksPlugin: Plugin<NamedChunksPluginOptions> = (
       async clientDynamicModules() {
         const content = `export default {\n${context.pages
           .filter(({ _filePath }) => _filePath)
-          .map(page => {
+          .map((page) => {
             const key = JSON.stringify(page.key)
             const filePath = JSON.stringify(page._filePath)
             const comment = page._chunkName
@@ -70,7 +70,7 @@ const NamedChunksPlugin: Plugin<NamedChunksPluginOptions> = (
       async clientDynamicModules() {
         const { layoutComponentMap } = context.themeAPI
         const content = `export default {\n${Object.keys(layoutComponentMap)
-          .map(name => {
+          .map((name) => {
             const component = layoutComponentMap[name]
             const key = JSON.stringify(name)
             const filePath = JSON.stringify(component.path)
