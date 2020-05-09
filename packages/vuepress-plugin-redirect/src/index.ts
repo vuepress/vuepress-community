@@ -26,7 +26,7 @@ export interface RedirectPluginOptions {
   redirectors?: Redirector[]
 }
 
-const RedirectPlugin: Plugin<RedirectPluginOptions> = options => ({
+const RedirectPlugin: Plugin<RedirectPluginOptions> = (options) => ({
   name: 'vuepress-plugin-redirect',
 
   // workaround SSR mismatch in 404.html

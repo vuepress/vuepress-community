@@ -71,7 +71,7 @@ const ServePlugin: Plugin<ServePluginOptions> = (
       .option('--host <host>', 'use specified host (default: 0.0.0.0)')
       .option('--open', 'open browser when ready')
       .allowUnknownOptions()
-      .action(async cliOptions => {
+      .action(async (cliOptions) => {
         // resolve the absolute path of not found file
         notFoundPath = resolve(context.outDir, notFoundPath)
 

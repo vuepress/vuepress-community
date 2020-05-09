@@ -35,7 +35,7 @@ const TableOfContents: ComponentOptions<Vue> = {
           for (let i = 0; i !== headers.length; ) {
             const nextRootOffset = headers
               .slice(i + 1)
-              .findIndex(h => h.level === rootLevel)
+              .findIndex((h) => h.level === rootLevel)
             const nextRootIndex =
               nextRootOffset === -1 ? headers.length : nextRootOffset + i + 1
             const thisHeader = headers[i]
@@ -70,7 +70,7 @@ const TableOfContents: ComponentOptions<Vue> = {
     const renderHeaders = (items: TOFHeader[]): VNode => {
       return h(
         'ul',
-        items.map(item =>
+        items.map((item) =>
           h('li', [
             h(
               'RouterLink',

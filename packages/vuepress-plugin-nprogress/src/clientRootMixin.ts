@@ -14,7 +14,7 @@ export default {
       next()
     })
 
-    this.$router.afterEach(to => {
+    this.$router.afterEach((to) => {
       loadedPages[to.path] = true
       nprogress.done()
     })

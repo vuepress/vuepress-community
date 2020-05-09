@@ -19,7 +19,9 @@ const enhanceApp: EnhanceApp = ({ router, siteData }) => {
 
   // if a path has corresponding route
   function hasRoute(path: string): boolean {
-    return routes.some(route => route.path.toLowerCase() === path.toLowerCase())
+    return routes.some(
+      (route) => route.path.toLowerCase() === path.toLowerCase()
+    )
   }
 
   // get the route or fallback route of a path
@@ -47,7 +49,7 @@ const enhanceApp: EnhanceApp = ({ router, siteData }) => {
     // resolve locales config from siteData
     const siteLocales = siteData.locales
     const localeKeys = Object.keys(siteLocales)
-    const locales = localeKeys.map(key => ({
+    const locales = localeKeys.map((key) => ({
       key: key.replace(/^\/|\/$/, ''),
       lang: siteLocales[key].lang,
     }))
@@ -170,7 +172,7 @@ const enhanceApp: EnhanceApp = ({ router, siteData }) => {
     next(target)
   })
 
-  router.afterEach(to => {
+  router.afterEach((to) => {
     // if router doesn't exist, skip storage
     if (!hasRoute(to.path)) return
 
