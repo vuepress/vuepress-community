@@ -5364,7 +5364,7 @@ eslint-config-standard@^14.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-14.1.1.tgz#830a8e44e7aef7de67464979ad06b406026c56ea"
   integrity sha512-Z9B+VR+JIXRxz21udPTL9HpFMyoMUEeX1G251EQ6e05WD9aPVtVBn09XUmZ259wCMlCDmYDSZG62Hhm+ZTJcUg==
 
-eslint-config-vuepress-typescript@^1.1.1:
+eslint-config-vuepress-typescript@^1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/eslint-config-vuepress-typescript/-/eslint-config-vuepress-typescript-1.1.4.tgz#0deb3df0144517d3475f1d0b91c8e89aa7cff4c0"
   integrity sha512-6j3+wxvED5i28r9v8CzzMjCSFUynDiyDO3Q6gnevOJ5QX5dYO6nzzhtgQkvqD3GURBG4ng5yTdjmnAR+XureBw==
@@ -5373,7 +5373,7 @@ eslint-config-vuepress-typescript@^1.1.1:
     "@typescript-eslint/parser" "^2.9.0"
     eslint-config-vuepress "2.2.0"
 
-eslint-config-vuepress@2.2.0, eslint-config-vuepress@^2.1.0:
+eslint-config-vuepress@2.2.0, eslint-config-vuepress@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/eslint-config-vuepress/-/eslint-config-vuepress-2.2.0.tgz#b6c43ce0ebd02bbc0eb159f7ec44591a50b52096"
   integrity sha512-o3mYcK9w67dnpFFlNdwzokNyR3rwztxq/SiVA4/XZayLY0yNcx9JY0Mi/ZM6GT9buTni99z3YPlept3vh/GJrA==
