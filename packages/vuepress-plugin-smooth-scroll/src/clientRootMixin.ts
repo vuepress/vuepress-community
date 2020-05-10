@@ -1,4 +1,4 @@
-import smoothscroll from 'smoothscroll-polyfill'
+import * as smoothscroll from 'smoothscroll-polyfill'
 import '../styles/index.styl'
 
 export default {

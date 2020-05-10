@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import nprogress from 'nprogress'
+import * as nprogress from 'nprogress'
 import '../styles/index.styl'
 
 export default {

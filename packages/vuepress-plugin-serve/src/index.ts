@@ -1,6 +1,6 @@
 import { Server } from 'http'
 import { Plugin } from 'vuepress-types'
-import Express from 'express'
+import * as Express from 'express'
 import { ServeStaticOptions } from 'serve-static'
 
 const { existsSync } = require('fs')

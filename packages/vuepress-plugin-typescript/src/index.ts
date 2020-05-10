@@ -1,4 +1,4 @@
-import TsLoader from 'ts-loader'
+import * as TsLoader from 'ts-loader'
 import { Plugin } from 'vuepress-types'
 
 const path = require('path')

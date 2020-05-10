@@ -1,5 +1,5 @@
-import Renderer from 'markdown-it/lib/renderer'
-import Token from 'markdown-it/lib/token'
+import * as Renderer from 'markdown-it/lib/renderer'
+import * as Token from 'markdown-it/lib/token'
 
 export type ContainerRenderFunction = (
   tokens: Token[],

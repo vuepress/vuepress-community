@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": false,
     "declaration": true,
+    "esModuleInterop": false,
     "module": "es2015",
     "newLine": "lf",
     "noEmitOnError": true,
