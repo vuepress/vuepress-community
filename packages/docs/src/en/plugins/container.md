@@ -100,7 +100,7 @@ String to be placed before the block.
 
 If specified as a function, an argument `info` will be passed to it. (In the example above, `info` will be `bar`.)
 
-If specified value or `before`, `defaultTitle` will be ignored.
+If specified a value for `before`, `defaultTitle` will be ignored.
 
 ### after
 
