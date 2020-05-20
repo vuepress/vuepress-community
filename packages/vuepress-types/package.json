@@ -27,7 +27,7 @@
     "@types/express": "^4.17.1",
     "@types/markdown-it": "^0.0.8",
     "@types/webpack-dev-server": "^3.1.7",
-    "cac": "^6.5.5",
+    "cac": "^6.5.10",
     "markdown-it": "^8.4.1",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.1",
