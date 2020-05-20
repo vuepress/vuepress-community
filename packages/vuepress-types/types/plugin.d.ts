@@ -1,4 +1,4 @@
-import CAC from 'cac/types/CAC'
+import { CAC } from 'cac'
 import { Application } from 'express'
 import WebpackDevServer from 'webpack-dev-server'
 import Config from 'webpack-chain'
