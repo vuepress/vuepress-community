@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.4](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-container@2.1.3...vuepress-plugin-container@2.1.4) (2020-05-21)
+
+**Note:** Version bump only for package vuepress-plugin-container
+
 ## [2.1.3](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-container@2.1.2...vuepress-plugin-container@2.1.3) (2020-04-08)
 
 ### Bug Fixes
