@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.2.0...vuepress-plugin-typescript@0.3.0) (2020-05-21)
+
+### Features
+
+- **plugin-typescript:** upgrade to ts-loader 7 ([2d6e17b](https://github.com/vuepress/vuepress-community/commit/2d6e17b3d661aa535a4487528d92df00cf96d5ef))
+
 # [0.2.0](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.1.2...vuepress-plugin-typescript@0.2.0) (2020-02-20)
 
 ### Features

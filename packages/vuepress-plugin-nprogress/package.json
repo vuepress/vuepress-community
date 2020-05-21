@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-nprogress",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "VuePress plugin for nprogress",
   "keywords": [
     "nprogress",
@@ -17,12 +17,12 @@
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "styles"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc -p tsconfig.json",
     "lint": "eslint --ext .ts src"

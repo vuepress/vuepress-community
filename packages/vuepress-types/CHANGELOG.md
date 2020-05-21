@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.3](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.9.2...vuepress-types@0.9.3) (2020-05-21)
+
+### Bug Fixes
+
+- **types:** bump cac version (close [#45](https://github.com/vuepress/vuepress-community/issues/45)) ([3011139](https://github.com/vuepress/vuepress-community/commit/3011139df44825e43cf5f48a0e354c4223db2196))
+
 ## [0.9.2](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.9.1...vuepress-types@0.9.2) (2020-05-06)
 
 ### Bug Fixes

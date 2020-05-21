@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.6](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-table-of-contents@1.1.5...vuepress-plugin-table-of-contents@1.1.6) (2020-05-21)
+
+**Note:** Version bump only for package vuepress-plugin-table-of-contents
+
 ## [1.1.5](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-table-of-contents@1.1.4...vuepress-plugin-table-of-contents@1.1.5) (2019-12-27)
 
 ### Bug Fixes

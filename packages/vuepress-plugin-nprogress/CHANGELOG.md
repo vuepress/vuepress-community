@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.7](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-nprogress@1.1.6...vuepress-plugin-nprogress@1.1.7) (2020-05-21)
+
+**Note:** Version bump only for package vuepress-plugin-nprogress
+
 ## [1.1.6](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-nprogress@1.1.5...vuepress-plugin-nprogress@1.1.6) (2019-11-29)
 
 **Note:** Version bump only for package vuepress-plugin-nprogress
