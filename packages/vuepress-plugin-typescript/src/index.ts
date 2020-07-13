@@ -47,14 +47,14 @@ const TypescriptPlugin: Plugin<TypescriptPluginOptions> = (
       .rule('ts')
       .test(/\.ts$/)
       .use('cache-loader')
-      .loader('cache-loader')
+      .loader(require.resolve('cache-loader'))
       .options({
         cacheDirectory,
         cacheIdentifier: finalCacheIdentifier,
       })
       .end()
       .use('ts-loader')
-      .loader('ts-loader')
+      .loader(require.resolve('ts-loader'))
       .options({
         appendTsSuffixTo: [/\.vue$/, /\.md$/],
         compilerOptions: {
