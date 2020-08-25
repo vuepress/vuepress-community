@@ -34,7 +34,7 @@ const enhanceApp: EnhanceApp = ({ Vue, router }): void => {
         return
       }
 
-      const targetElement = document.querySelector(to.hash)
+      const targetElement = document.querySelector(`[id='${to.hash.slice(1)}']`)
 
       if (targetElement) {
         return window.scrollTo({
