@@ -34,7 +34,10 @@ const enhanceApp: EnhanceApp = ({ Vue, router }): void => {
         return
       }
 
-      const targetElement = document.querySelector(`[id='${to.hash.slice(1)}']`)
+      const targetAnchor = to.hash.slice(1)
+      const targetElement =
+        document.getElementById(targetAnchor) ||
+        document.querySelector(`[name='${targetAnchor}']`)
 
       if (targetElement) {
         return window.scrollTo({
