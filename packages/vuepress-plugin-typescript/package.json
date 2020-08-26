@@ -27,10 +27,14 @@
     "lint": "eslint --ext .ts,.vue src test"
   },
   "dependencies": {
+    "cache-loader": "^3.0.0",
     "ts-loader": "^7.0.3"
   },
   "devDependencies": {
     "vue-class-component": "^7.1.0",
     "vue-property-decorator": "^8.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "*"
   }
 }
