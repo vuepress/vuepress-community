@@ -12,7 +12,7 @@ export interface ResolvedTheme {
   path?: string
   name?: string
   shortcut?: string
-  entry: {} | NormalizedPlugin
+  entry: Record<never, never> | NormalizedPlugin
 }
 
 export interface ThemeAPI {

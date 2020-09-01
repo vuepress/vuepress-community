@@ -12,7 +12,7 @@ export interface LocaleConfig extends Omit<ThemeConfig, 'locales'> {
  */
 export interface MarkdownConfig {
   lineNumbers?: boolean
-  slugify?: Function
+  slugify?: (...args: any[]) => any
   anchor?: {
     permalink?: boolean
     permalinkBefore?: boolean
@@ -76,16 +76,16 @@ export interface SiteConfig {
   // https://github.com/postcss/postcss-loader#options
   postcss?: {
     exec?: boolean
-    parser?: string | object
-    syntax?: string | object
-    stringifier?: string | object
+    parser?: string | Record<string, any> | ((...args: any[]) => any)
+    syntax?: string | Record<string, any>
+    stringifier?: string | Record<string, any>
     config?: {
       path?: string
-      context?: object
-      ctx?: object
+      context?: Record<string, any>
+      ctx?: Record<string, any>
     }
     ident?: string
-    plugins?: any[] | Function
+    plugins?: any[] | ((...args: any[]) => any)
     sourceMap?: 'inline' | boolean
   }
   // https://github.com/shama/stylus-loader#readme

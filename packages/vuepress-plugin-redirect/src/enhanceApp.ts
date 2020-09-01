@@ -2,7 +2,7 @@ import { join } from 'path'
 import { EnhanceApp } from 'vuepress-types'
 import { RedirectPluginOptions, RedirectorStorage, Redirector } from '.'
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import pluginRedirectOptions from '@dynamic/plugin-redirect-options'
 

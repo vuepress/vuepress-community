@@ -45,7 +45,7 @@ export interface PageProcessOptions {
   computed: ClientComputedMixin
   markdown: Markdown
   enhancers: PageEnhancer[]
-  preRender: {}
+  preRender: Record<never, never>
 }
 
 export interface PageHeader {
