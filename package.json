@@ -9,7 +9,7 @@
     "dev": "yarn workspace docs dev --no-cache",
     "dev:docs": "yarn workspace docs dev",
     "postinstall": "yarn build",
-    "lint": "lerna run lint --stream",
+    "lint": "eslint --ext .js,.ts,.vue packages",
     "release": "yarn lint && yarn build && yarn test && lerna publish",
     "serve": "yarn workspace docs serve",
     "test": "jest --runInBand"

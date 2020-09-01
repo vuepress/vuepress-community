@@ -3,3 +3,4 @@ node_modules/
 !.eslintrc.js
 !.commitlintrc.js
 lib/
+dist/
