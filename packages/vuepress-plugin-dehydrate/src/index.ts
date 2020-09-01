@@ -75,13 +75,13 @@ const DehydratePlugin: Plugin<DehydratePluginOptions> = (
   ready(): void {
     // hack into current ssr template
     let template = readFileSync(context.ssrTemplate, 'utf8')
-    if (template.search(contentWrapper) < 0) {
+    if (template.indexOf(contentWrapper) < 0) {
       template = template.replace(contentOriginal, contentWrapper)
     }
-    if (template.search(resourceWrapper) < 0) {
+    if (template.indexOf(resourceWrapper) < 0) {
       template = template.replace(resourceOriginal, resourceWrapper)
     }
-    if (template.search(scriptsWrapper) < 0) {
+    if (template.indexOf(scriptsWrapper) < 0) {
       template = template.replace(scriptsOriginal, scriptsWrapper)
     }
     writeFileSync(context.ssrTemplate, template)
