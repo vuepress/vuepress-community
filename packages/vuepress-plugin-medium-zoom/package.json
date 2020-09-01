@@ -19,14 +19,14 @@
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib",
     "styles"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "rimraf lib && tsc -p tsconfig.json",
+    "build": "rimraf lib && tsc -p tsconfig.build.json",
     "lint": "eslint --ext .ts src"
   },
   "dependencies": {

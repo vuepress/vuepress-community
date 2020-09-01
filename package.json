@@ -21,31 +21,25 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,vue}": [
-      "eslint --fix"
-    ],
-    "*.{json,md,yml}": [
-      "prettier --write"
-    ],
-    "package.json": [
-      "sort-package-json"
-    ]
+    "*.{js,ts,vue}": "eslint --fix",
+    "*.{json,md,yml}": "prettier --write",
+    "package.json": "sort-package-json"
   },
   "prettier": "prettier-config-vuepress",
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "@types/jest": "^24.0.18",
-    "eslint": "^6.4.0",
+    "eslint": "^7.8.0",
     "eslint-config-vuepress": "^2.2.0",
-    "eslint-config-vuepress-typescript": "^1.1.4",
+    "eslint-config-vuepress-typescript": "^1.3.0",
     "husky": "^4.2.5",
     "jest": "^24.9.0",
     "jest-serializer-vue": "^2.0.2",
     "lerna": "^3.16.4",
     "lint-staged": "^10.2.2",
     "prettier": "^2.0.5",
-    "prettier-config-vuepress": "^1.0.0",
+    "prettier-config-vuepress": "^1.1.0",
     "rimraf": "^3.0.2",
     "sort-package-json": "^1.42.2",
     "ts-jest": "^24.1.0",

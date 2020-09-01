@@ -28,7 +28,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "rimraf lib && tsc -p tsconfig.json",
+    "build": "rimraf lib && tsc -p tsconfig.build.json",
     "lint": "eslint --ext .ts src"
   },
   "dependencies": {
