@@ -4,7 +4,7 @@ import { Plugin } from 'vuepress-types'
 const path = require('path')
 
 export interface TypescriptPluginOptions {
-  tsLoaderOptions: TsLoader.Options
+  tsLoaderOptions: Partial<TsLoader.Options>
 }
 
 const TypescriptPlugin: Plugin<TypescriptPluginOptions> = (
