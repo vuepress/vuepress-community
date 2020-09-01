@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.8](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-zooming@1.1.7...vuepress-plugin-zooming@1.1.8) (2020-09-01)
+
+**Note:** Version bump only for package vuepress-plugin-zooming
+
 ## [1.1.7](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-zooming@1.1.6...vuepress-plugin-zooming@1.1.7) (2019-11-29)
 
 **Note:** Version bump only for package vuepress-plugin-zooming

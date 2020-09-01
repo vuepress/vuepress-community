@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-clean-urls",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "VuePress plugin for clean URLs",
   "keywords": [
     "clean-url",

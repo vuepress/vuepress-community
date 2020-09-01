@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.3.0...vuepress-plugin-typescript@0.3.1) (2020-09-01)
+
+### Bug Fixes
+
+- **plugin-typescript:** use partial ts-loader optiions ([ef560d4](https://github.com/vuepress/vuepress-community/commit/ef560d4de9dfa9941b04cdfdc1a9351ab3fb449a))
+- dependency issues in typescript and container plugin ([#52](https://github.com/vuepress/vuepress-community/issues/52)) ([8a4c390](https://github.com/vuepress/vuepress-community/commit/8a4c39089e48ab9319ba15853a4a4782812af03f))
+
 # [0.3.0](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-typescript@0.2.0...vuepress-plugin-typescript@0.3.0) (2020-05-21)
 
 ### Features

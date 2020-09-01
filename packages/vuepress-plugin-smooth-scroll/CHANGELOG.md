@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.10](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-smooth-scroll@0.0.9...vuepress-plugin-smooth-scroll@0.0.10) (2020-09-01)
+
+### Bug Fixes
+
+- **plugin-smooth-scroll:** get target element by id or name ([#58](https://github.com/vuepress/vuepress-community/issues/58)) ([6ce05cf](https://github.com/vuepress/vuepress-community/commit/6ce05cf3c9eb3f29236e327edaf09a24b3fdc0e6))
+
 ## [0.0.9](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-smooth-scroll@0.0.8...vuepress-plugin-smooth-scroll@0.0.9) (2019-11-29)
 
 **Note:** Version bump only for package vuepress-plugin-smooth-scroll

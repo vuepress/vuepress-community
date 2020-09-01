@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-serve@2.0.3...vuepress-plugin-serve@2.0.4) (2020-09-01)
+
+**Note:** Version bump only for package vuepress-plugin-serve
+
 ## [2.0.3](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-serve@2.0.2...vuepress-plugin-serve@2.0.3) (2020-05-21)
 
 **Note:** Version bump only for package vuepress-plugin-serve

@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.4](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.9.3...vuepress-types@0.9.4) (2020-09-01)
+
+**Note:** Version bump only for package vuepress-types
+
 ## [0.9.3](https://github.com/vuepress/vuepress-community/compare/vuepress-types@0.9.2...vuepress-types@0.9.3) (2020-05-21)
 
 ### Bug Fixes

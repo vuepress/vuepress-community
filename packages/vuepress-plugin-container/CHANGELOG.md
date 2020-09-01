@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.5](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-container@2.1.4...vuepress-plugin-container@2.1.5) (2020-09-01)
+
+### Bug Fixes
+
+- dependency issues in typescript and container plugin ([#52](https://github.com/vuepress/vuepress-community/issues/52)) ([8a4c390](https://github.com/vuepress/vuepress-community/commit/8a4c39089e48ab9319ba15853a4a4782812af03f))
+
 ## [2.1.4](https://github.com/vuepress/vuepress-community/compare/vuepress-plugin-container@2.1.3...vuepress-plugin-container@2.1.4) (2020-05-21)
 
 **Note:** Version bump only for package vuepress-plugin-container
