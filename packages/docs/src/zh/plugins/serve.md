@@ -21,7 +21,7 @@ module.exports = {
     [
       'vuepress-plugin-serve',
       {
-        post: 1234,
+        port: 1234,
         staticOptions: {
           dotfiles: 'allow',
         },
