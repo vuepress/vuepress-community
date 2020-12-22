@@ -14,7 +14,7 @@
   </a>
 
   <a href="https://github.com/vuepress/vuepress-community/commits" target="_blank">
-    <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community?icon=github">
+    <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community/main?icon=github">
   </a>
   
   <a href="https://github.com/vuepress/vuepress-community/blob/main/LICENSE" target="_blank">
