@@ -4,8 +4,8 @@
 
 ## Documentation
 
-[vuepress.github.io](https://vuepress.github.io)
+[vuepress-community.netlify.app](https://vuepress-community.netlify.app)
 
 ## License
 
-[MIT](https://github.com/vuepress/vuepress-community/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/vuepress-community/blob/main/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)

@@ -83,7 +83,7 @@ export default Vue.extend({
 - 主题布局组件: [theme/layouts/\*.vue](https://vuepress.vuejs.org/theme/writing-a-theme.html#layout-component)
 - 其他你想要在 VuePress 中使用的组件
 
-> 参考当前文档的 [源代码](https://github.com/vuepress/vuepress-community/tree/master/packages/docs/src/.vuepress/components)。
+> 参考当前文档的 [源代码](https://github.com/vuepress/vuepress-community/tree/main/packages/docs/src/.vuepress/components)。
 
 ### enhanceApp.ts
 
@@ -91,7 +91,7 @@ VuePress 支持 [应用级别的配置](https://vuepress.vuejs.org/zh/guide/basi
 
 这个插件允许你使用 `enhanceApp.ts` 来代替 `enhanceApp.js` 。
 
-> 参考这个插件的 [测试用例](https://github.com/vuepress/vuepress-community/blob/master/packages/vuepress-plugin-typescript/test/e2e/docs/.vuepress/theme/enhanceApp.ts)。
+> 参考这个插件的 [测试用例](https://github.com/vuepress/vuepress-community/blob/main/packages/vuepress-plugin-typescript/test/e2e/docs/.vuepress/theme/enhanceApp.ts)。
 
 ::: warning
 如果你想在 `enhanceApp.ts` 或其他 `.ts` 文件中引入 `.vue` 文件，记得创建 `.vuepress/shims-vue.d.ts`:

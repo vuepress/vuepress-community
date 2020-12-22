@@ -1,4 +1,7 @@
 {
   "extends": "../../tsconfig.json",
-  "include": ["./src"]
+  "compilerOptions": {
+    "allowJs": true
+  },
+  "include": ["./src/.vuepress/config.js"]
 }

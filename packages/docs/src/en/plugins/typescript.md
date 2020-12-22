@@ -83,7 +83,7 @@ This plugins allows you to write `.vue` files in TypeScript, including:
 - Theme layout components: [theme/layouts/\*.vue](https://vuepress.vuejs.org/theme/writing-a-theme.html#layout-component)
 - Other components that you want to use in VuePress
 
-> See the [source code](https://github.com/vuepress/vuepress-community/tree/master/packages/docs/src/.vuepress/components) of this docs.
+> See the [source code](https://github.com/vuepress/vuepress-community/tree/main/packages/docs/src/.vuepress/components) of this docs.
 
 ### enhanceApp.ts
 
@@ -91,7 +91,7 @@ VuePress supports [App Level Enhancements](https://vuepress.vuejs.org/guide/basi
 
 This plugin allows you to use `enhanceApp.ts` instead of `enhanceApp.js`.
 
-> See the [test cases](https://github.com/vuepress/vuepress-community/blob/master/packages/vuepress-plugin-typescript/test/e2e/docs/.vuepress/theme/enhanceApp.ts) of this plugin.
+> See the [test cases](https://github.com/vuepress/vuepress-community/blob/main/packages/vuepress-plugin-typescript/test/e2e/docs/.vuepress/theme/enhanceApp.ts) of this plugin.
 
 ::: warning
 Remember to create `.vuepress/shims-vue.d.ts` file if you want to import `.vue` files in your `enhanceApp.ts` or other `.ts` files:
