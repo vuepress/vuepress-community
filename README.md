@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://vuepress.github.io/" target="_blank">
-    <img width="180" src="https://raw.githubusercontent.com/vuepress/vuepress-community/master/packages/docs/src/.vuepress/public/logo/600x600.png" alt="logo">
+  <a href="https://vuepress-community.netlify.app/" target="_blank">
+    <img width="180" src="https://raw.githubusercontent.com/vuepress/vuepress-community/main/packages/docs/src/.vuepress/public/logo/600x600.png" alt="logo">
   </a>
 </p>
 
@@ -9,19 +9,15 @@
 </h2>
 
 <p align="center">
-  <a href="https://circleci.com/gh/vuepress/workflows/vuepress-community" target="_blank">
-    <img src="https://badgen.net/circleci/github/vuepress/vuepress-community/master?icon=circleci">
-  </a>
-
-  <a href="https://travis-ci.com/vuepress/vuepress-community" target="_blank">
-    <img src="https://badgen.net/travis/vuepress/vuepress-community?label=docs&icon=travis">
+  <a href="https://github.com/vuepress/vuepress-community/actions?query=workflow%3Acheck" target="_blank">
+    <img src="https://github.com/vuepress/vuepress-community/workflows/check/badge.svg">
   </a>
 
   <a href="https://github.com/vuepress/vuepress-community/commits" target="_blank">
     <img src="https://badgen.net/github/last-commit/vuepress/vuepress-community?icon=github">
   </a>
   
-  <a href="https://github.com/vuepress/vuepress-community/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/vuepress/vuepress-community/blob/main/LICENSE" target="_blank">
     <img src="https://badgen.net/github/license/vuepress/vuepress-community">
   </a>
 </p>
@@ -32,8 +28,8 @@
 
 ## Documentation
 
-[vuepress.github.io](https://vuepress.github.io)
+[vuepress-community.netlify.app](https://vuepress-community.netlify.app)
 
 ## License
 
-[MIT](https://github.com/vuepress/vuepress-community/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/vuepress-community/blob/main/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
