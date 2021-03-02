@@ -34,7 +34,7 @@ const enhanceApp: EnhanceApp = ({ Vue, router }): void => {
         return
       }
 
-      const targetAnchor = to.hash.slice(1)
+      const targetAnchor = decodeURIComponent(to.hash).slice(1)
       const targetElement =
         document.getElementById(targetAnchor) ||
         document.querySelector(`[name='${targetAnchor}']`)
