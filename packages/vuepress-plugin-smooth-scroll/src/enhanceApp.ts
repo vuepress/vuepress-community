@@ -1,6 +1,8 @@
 import { EnhanceApp } from 'vuepress-types'
 import { Route } from 'vue-router'
 
+declare const SMOOTH_SCROLL_DELAY: number
+
 // fork from vue-router@3.0.2
 // src/util/scroll.js
 function getElementPosition(
@@ -34,17 +36,19 @@ const enhanceApp: EnhanceApp = ({ Vue, router }): void => {
         return
       }
 
-      const targetAnchor = to.hash.slice(1)
-      const targetElement =
-        document.getElementById(targetAnchor) ||
-        document.querySelector(`[name='${targetAnchor}']`)
+      setTimeout(() => {
+        const targetAnchor = decodeURI(to.hash.slice(1))
+        const targetElement =
+          document.getElementById(targetAnchor) ||
+          document.querySelector(`[name='${targetAnchor}']`)
 
-      if (targetElement) {
-        return window.scrollTo({
-          top: getElementPosition(targetElement).y,
-          behavior: 'smooth',
-        })
-      }
+        if (targetElement) {
+          return window.scrollTo({
+            top: getElementPosition(targetElement).y,
+            behavior: 'smooth',
+          })
+        }
+      }, SMOOTH_SCROLL_DELAY)
     } else {
       return window.scrollTo({
         top: 0,
