@@ -28,7 +28,7 @@
     "@types/markdown-it": "^0.0.8",
     "@types/webpack-dev-server": "^3.1.7",
     "cac": "^6.5.10",
-    "markdown-it": "^8.4.1",
+    "markdown-it": "^12.3.2",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.1",
     "webpack": "^4.8.1",
