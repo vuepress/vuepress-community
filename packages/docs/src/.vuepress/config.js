@@ -103,6 +103,7 @@ module.exports = (context) => ({
 
   themeConfig: {
     repo: 'vuepress/vuepress-community',
+    docsBranch: 'main',
     editLinks: true,
     docsDir: 'packages/docs/src',
     locales: {
