@@ -14,6 +14,16 @@ This plugin will make your images zoomable.
 npm install -D vuepress-plugin-medium-zoom
 ```
 
+::: tip VuePress2
+
+This plugin is for VuePress1, to use it with VuePress2, install:
+
+```bash
+npm install -D @vuepress/plugin-medium-zoom@next
+```
+
+:::
+
 ## Usage
 
 ```js

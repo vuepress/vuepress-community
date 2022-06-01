@@ -4,6 +4,7 @@ sidebarDepth: 3
 
 # vuepress-plugin-redirect <GitHubLink repo="vuepress/vuepress-community"/>
 
+
 VuePress has a built-in [i18n system](https://vuepress.vuejs.org/en/guide/i18n.html), but you must provide a default language, otherwise you will only get a 404 if you try to access `/` directly. However, providing a default language often means a less friendly project structure (because the files in the default language are one level lower than others), and we sometimes want our website to keep `/` for a more intelligent redirection (e.g. determines that the language used by the user based on `navigator.language` and automatically redirects to the corresponding page). `vuepress-plugin-redirect` is such a plugin that handles automatic redirections. Of course, its capacity is not limited to automatic redirecting of the language, because you can redirect any page to its subpages via a custom redirector.
 
 <ClientOnly>
@@ -29,6 +30,16 @@ export default {
 ```sh
 npm install -D vuepress-plugin-redirect
 ```
+
+::: tip VuePress2
+
+This plugin is for VuePress1, to use it with VuePress2, install with next flag:
+
+```bash
+npm install -D vuepress-plugin-redirect@next
+```
+
+:::
 
 ## Usage
 
