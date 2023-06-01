@@ -12,6 +12,16 @@ sidebarDepth: 3
 npm install -D vuepress-plugin-table-of-contents
 ```
 
+::: tip VuePress2
+
+此插件为 VuePress1 插件，如果想要搭配 VuePress2 使用，请安装：
+
+```bash
+npm install -D @vuepress/plugin-toc@next
+```
+
+:::
+
 ## 使用
 
 ```js

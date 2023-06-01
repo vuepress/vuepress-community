@@ -14,6 +14,16 @@ copyright:
 npm install -D vuepress-plugin-copyright
 ```
 
+::: tip VuePress2
+
+此插件为 VuePress1 插件，如果想要搭配 VuePress2 使用，请安装：
+
+```bash
+npm install -D vuepress-plugin-copyright2@next
+```
+
+:::
+
 ## 使用
 
 ```js

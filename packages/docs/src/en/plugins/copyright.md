@@ -14,6 +14,16 @@ Handles copy behaviors in your VuePress site.
 npm install -D vuepress-plugin-copyright
 ```
 
+::: tip VuePress2
+
+This plugin is for VuePress1, to use it with VuePress2, install:
+
+```bash
+npm install -D vuepress-plugin-copyright2@next
+```
+
+:::
+
 ## Usage
 
 ```js
